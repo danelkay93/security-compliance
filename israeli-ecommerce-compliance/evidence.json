@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-ecommerce-compliance",
-  "generated_at": "2026-05-29T00:00:00Z",
+  "generated_at": "2026-11-03T18:00:00Z",
   "claims": [
     {
       "claim_id": "cooling-off-and-fees",
@@ -20,8 +20,7 @@
       "claim": "The current Israeli VAT rate is 18%, and consumer-facing prices must be shown inclusive of it.",
       "source_url": "https://taxsummaries.pwc.com/israel/corporate/other-taxes",
       "raw_snippet": "The 2025 current rate of VAT is 18%.",
-      "fetched_at": "2026-08-09",
-      "verified_via": "raw HTML fetch (curl) of source page",
+      "fetched_at": "2026-11-03T18:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -39,70 +38,8 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/consumer-protection-law.md"
-      ]
-    },
-    {
-      "claim_id": "is5568-exempt-threshold",
-      "claim": "Private contractors whose average annual revenue is less than NIS 100,000 / 100,000 ש\"ח are exempt from IS 5568.",
-      "source_url": "https://accessibe.com/compliance/is-5568",
-      "raw_snippet": "Private contractors whose average annual revenue is less than NIS 100,000 are exempt from IS 5568.",
-      "fetched_at": "2026-08-09",
-      "verified_via": "raw HTML fetch (curl) of source page",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/consumer-protection-law.md"
-      ]
-    },
-    {
-      "claim_id": "is5568-immediate-threshold",
-      "claim": "Medium and large businesses with average annual revenue of NIS 300,000 / 300,000 ש\"ח or more, set up after 2017, had to comply with IS 5568 immediately.",
-      "source_url": "https://accessibe.com/compliance/is-5568",
-      "raw_snippet": "Medium and large businesses with average annual revenue of NIS 300,000 or more, which were set up after 2017, were required to comply with IS 5568 immediately.",
-      "fetched_at": "2026-08-09",
-      "verified_via": "raw HTML fetch (curl) of source page",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/consumer-protection-law.md"
-      ]
-    },
-    {
-      "claim_id": "is5568-small-business-deadline",
-      "claim": "Small businesses with average annual revenue under NIS 300,000 / 300,000 ש\"ח were required to comply by October 2020.",
-      "source_url": "https://accessibe.com/compliance/is-5568",
-      "raw_snippet": "Small businesses, with average annual revenue of under NIS 300,000, were required to comply by October 2020.",
-      "fetched_at": "2026-08-09",
-      "verified_via": "raw HTML fetch (curl) of source page",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/consumer-protection-law.md"
-      ]
-    },
-    {
-      "claim_id": "allocation-threshold-2026",
-      "claim": "From 1 January 2026 the allocation-number threshold drops to NIS 10,000 / 10,000 ש\"ח (before VAT).",
-      "source_url": "https://www.vatupdate.com/2026/01/12/thresholds-for-mandatory-allocation-numbers-on-tax-invoices-to-be-lowered-in-2026/",
-      "raw_snippet": "In 2026, the threshold will be reduced to NIS 10,000 (before VAT) from January 1.",
-      "fetched_at": "2026-08-09",
-      "verified_via": "raw HTML fetch (curl) of source page",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "allocation-threshold-june-2026",
-      "claim": "From 1 June 2026 the allocation-number threshold drops further to NIS 5,000 / 5,000 ש\"ח (before VAT).",
-      "source_url": "https://www.vatupdate.com/2026/01/12/thresholds-for-mandatory-allocation-numbers-on-tax-invoices-to-be-lowered-in-2026/",
-      "raw_snippet": "From June 1, 2026, the threshold will be further reduced to NIS 5,000 (before VAT).",
-      "fetched_at": "2026-08-09",
-      "verified_via": "raw HTML fetch (curl) of source page",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
+      ],
+      "verified_at": "2026-11-03"
     },
     {
       "claim_id": "section-30a-spam",
@@ -116,24 +53,11 @@
       ]
     },
     {
-      "claim_id": "import-vat-threshold",
-      "claim": "The standing VAT exemption on personal imports is USD 75; a ministerial move to double it to USD 150 was reported in that article. The threshold has been volatile, so the current figure must be checked against the Israel Tax Authority before it is relied on.",
-      "source_url": "https://www.ynetnews.com/business/article/r1iu3almwe",
-      "raw_snippet": "The entire professional leadership of the Finance Ministry opposes the move, which is expected to result in an annual loss of about 1.25 billion shekels in tax revenue, in addition to the roughly 1 billion shekels already lost each year due to the existing exemption on personal imports valued at up to $75.",
-      "fetched_at": "2026-08-09",
-      "verified_via": "raw HTML fetch (curl) of source page",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
       "claim_id": "pci-dss-current-version",
       "claim": "The current PCI DSS version is v4.0.1, as shown by the PCI SSC document library entry \"PCI DSS Summary of Changes v4.0 to v4.0.1\".",
       "source_url": "https://www.pcisecuritystandards.org/document_library/",
       "raw_snippet": "PCI DSS Summary of Changes v4.0 to v4.0.1",
-      "fetched_at": "2026-08-09",
-      "verified_via": "raw HTML fetch (curl) of source page",
+      "fetched_at": "2026-11-03T18:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -186,11 +110,1015 @@
       ]
     },
     {
-      "claim_id": "allocation-threshold-2025",
-      "claim": "In 2025 allocation numbers are required for invoices over NIS 20,000 / 20,000 ש\"ח (before VAT).",
-      "source_url": "https://www.vatupdate.com/2026/01/12/thresholds-for-mandatory-allocation-numbers-on-tax-invoices-to-be-lowered-in-2026/",
-      "raw_snippet": "In 2025, allocation numbers are required for invoices over NIS 20,000 (before VAT).",
-      "fetched_at": "2026-08-09",
+      "claim_id": "distance-sale-definition",
+      "claim": "סעיף 14ג(ו): a distance sale is a transaction made following distance marketing without joint presence of the parties",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "\"עסקת מכר מרחוק\" – התקשרות בעסקה של מכר נכס או של מתן שירות, כאשר ההתקשרות נעשית בעקבות שיווק מרחוק, ללא נוכחות משותפת של הצדדים לעסקה;",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "consumer-definition",
+      "claim": "CPL s.1: a consumer buys mainly for personal, household or family use from a dealer",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "\"צרכן\" – מי שקונה נכס או מקבל שירות מעוסק במהלך עיסוקו לשימוש שעיקרו אישי, ביתי או משפחתי;",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "services-window",
+      "claim": "Services: 14 days; continuing transaction cancellable whether or not started; one-off service only at least 2 non-rest days before the service",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "בעסקה מתמשכת – בין אם הוחל במתן השירות ובין אם לאו, ובעסקה שאינה עסקה מתמשכת – בתנאי שביטול כאמור ייעשה לפחות שני ימים, שאינם ימי מנוחה, קודם למועד שבו אמור השירות להינתן.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "eligibility-proof",
+      "claim": "סעיף 14ג1(ד): dealer may require a certificate but no additional proof",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "רשאי העוסק לדרוש ממנו להציג לפניו תעודה המוכיחה שהוא אדם עם מוגבלות, אזרח ותיק או עולה חדש, ובלבד שלא ידרוש ממנו הוכחה נוספת לשם מימוש זכות הביטול כאמור;",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "fee-includes-shipping",
+      "claim": "סעיף 14ה(ד): cancellation fee includes shipping, packaging and other expenses",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "בסעיף זה, \"דמי ביטול\" – לרבות הוצאות או התחייבות בשל משלוח, אריזה או כל הוצאה או התחייבות אחרת שלטענת העוסק הוצאו על ידו או שהוא התחייב בהן בשל ההתקשרות בעסקה או בחוזה, או בשל ביטולה.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "return-to-place-of-business",
+      "claim": "סעיף 14ה(ב)(2): on change-of-mind cancellation the consumer returns the goods to the dealer's place of business",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "קיבל הצרכן את הנכס נושא העסקה או החוזה, יחזירו לעוסק במקום עסקו",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "no-fee-defect",
+      "claim": "סעיף 14ה(א): defect, non-conformity, non-supply on time or other breach: no cancellation fee; goods made available where delivered",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "עקב אי-אספקת הנכס או השירות במועד שנקבע לכך בחוזה או בשל כל הפרה אחרת של החוזה בידי העוסק",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "defect-make-available",
+      "claim": "סעיף 14ה(א)(2): consumer makes the goods available where delivered and notifies the dealer",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "יעמידו לרשות העוסק במקום שבו נמסר לו הנכס ויודיע על כך לעוסק",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "refund-14-days",
+      "claim": "סעיף 14ה: refund within 14 days of the cancellation notice, cancel the charge, give copy of charge cancellation",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "בתוך 14 ימים מיום קבלת ההודעה על הביטול, את אותו חלק ממחיר העסקה ששולם על ידי הצרכן, יבטל את חיובו של הצרכן בשל העסקה וימסור לו עותק מהודעת ביטול החיוב",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "proportional-continuing",
+      "claim": "Continuing service already started: consumer pays the proportional price",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "ישלם הצרכן את התמורה היחסית בעד השירות שניתן לו.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "installation-100",
+      "claim": "Home installation: up to 100 NIS (s.14ה(ב2))",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "יהיה רשאי לגבות מהצרכן תשלום בשל הוצאות ההתקנה, בסכום שלא יעלה על 100 שקלים חדשים",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "deterioration-damages",
+      "claim": "סעיף 14ה(ג): dealer may claim damages for significant deterioration",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "אין בהוראות סעיפים קטנים (א) ו-(ב) כדי לגרוע מזכותו של עוסק לתבוע את נזקיו, בשל כך שערך הנכס פחת כתוצאה מהרעה משמעותית במצבו.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "exemplary-damages-refund",
+      "claim": "סעיף 31א: exemplary damages up to 10,000 NIS without proof of harm, including failure to refund after a distance-sale cancellation",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "רשאי בית המשפט לפסוק, בשל אותה הפרה, פיצויים שאינם תלויים בנזק (בסעיף זה – פיצויים לדוגמה), בסכום שלא יעלה על 10,000 שקלים חדשים",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "exemplary-damages-distance-item",
+      "claim": "סעיף 31א item: dealer did not refund or cancel the charge after a distance-sale cancellation",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "ביטול עסקת מכר מרחוק לפי סעיף 14ג(ג) או 14ג1(ג) – והעוסק לא השיב לצרכן את החלק ממחיר העסקה או לא ביטל את החיוב כאמור;",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "exceptions-list-open",
+      "claim": "סעיף 14ג(ד): exceptions to the distance-sale cancellation right",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "הוראות סעיף קטן (ג) וסעיף 14ג1(ג) לא יחולו על עסקת מכר מרחוק של –",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "exceptions-leisure-7-days",
+      "claim": "Exception: accommodation, travel, holiday or leisure services if cancellation falls within 7 non-rest days before the service",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "שירותי הארחה, נסיעה, חופש או בילוי, אם מועד ביטול העסקה חל בתוך שבעה ימים שאינם ימי מנוחה, קודם למועד שבו אמור השירות להינתן;",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "exceptions-recordable",
+      "claim": "Exception: goods that can be recorded, reproduced or copied whose original packaging the consumer opened; goods made specially for the consumer",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "טובין הניתנים להקלטה, לשעתוק או לשכפול, שהצרכן פתח את אריזתם המקורית.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "exceptions-custom",
+      "claim": "Exception: goods made specially for the consumer; information under the Computers Law; perishables",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "טובין שיוצרו במיוחד בעבור הצרכן בעקבות העסקה;",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cancel-homepage-link",
+      "claim": "סעיף 14ט(ב): website must have a dedicated cancellation link on its homepage, prominent",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "ייצור עוסק בדף הראשי של אתר האינטרנט שלו קישור ייעודי שבאמצעותו ניתן לשלוח הודעת ביטול בהתאם להוראות סעיף קטן (א)(5), שימוקם באופן מובלט וברור.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cancel-notice-contents",
+      "claim": "סעיף 14ט(ג): name and ID number, plus for an oral notice an additional identifying detail if agreed at contracting",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "בהודעת ביטול יפרט הצרכן את שמו ומספר הזהות שלו, ואם נמסרה הודעת הביטול בעל פה כאמור בסעיף קטן (א)(1) – פרט מזהה נוסף אם הוסכם עליו עם הצרכן בעת ההתקשרות",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cancel-contact-disclosure",
+      "claim": "סעיף 14ט(ד): dealer discloses in writing the cancellation channels and contact details, by supply",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "עוסק יגלה לצרכן, בכתב, את הדרכים למסירת הודעת ביטול כאמור בסעיף קטן (א), את פרטי ההתקשרות הנוגעים לכל דרך ביטול כאמור באותו סעיף קטן",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "continuing-termination",
+      "claim": "סעיף 13ד(ג): continuing transaction ends within 3 business days, 6 if registered mail",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "חוזה בעסקה מתמשכת יסתיים בתוך שלושה ימי עסקים מיום שנמסרה הודעת ביטול לפי הוראות סעיף 14ט, ואם נמסרה הודעת הביטול באמצעות דואר רשום – בתוך שישה ימי עסקים מיום מסירתה למשלוח",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "credit-note-2-years",
+      "claim": "סעיף 14ז: credit note only where consumer not entitled to refund; valid at least 2 years",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "ולא היה זכאי להחזר כספי לפי הוראות כל דין, והעוסק נתן לו שובר זיכוי בשל הביטול",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "credit-note-validity",
+      "claim": "סעיף 14ז(א)(3): credit note valid for two years at least",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "שובר הזיכוי יהיה תקף לשנתיים לפחות מיום מסירתו",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "gift-voucher-5-years",
+      "claim": "סעיף 14ח(ב): purchase voucher validity not less than five years; issue and expiry dates marked",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "גם את מועד ההנפקה ואת מועד פקיעת התוקף, ובלבד שתקופת תוקפו של התו לא תפחת מחמש שנים ממועד ההנפקה",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "no-waiver",
+      "claim": "סעיף 36: the law applies despite any waiver or contrary agreement",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "הוראות חוק זה יחולו על אף כל ויתור או הסכם נוגד.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "disclosure-identity",
+      "claim": "סעיף 14ג(א)(1): name, ID number and address of the dealer in Israel and abroad",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "השם, מספר הזהות והכתובת של העוסק בארץ ובחוץ לארץ;",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "disclosure-document",
+      "claim": "סעיף 14ג(ב): written document in Hebrew or marketing language no later than supply",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "בעסקת מכר מרחוק יספק העוסק לצרכן בכתב, בעברית או בשפה שבה נעשתה הפניה לשיווק, לא יאוחר ממועד הספקת הנכס או השירות, מסמך הכולל פרטים אלה:",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "disclosure-manufacturer",
+      "claim": "Disclosure document includes manufacturer name and country of manufacture",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "שם היצרן וארץ ייצור הנכס;",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "total-price-definition",
+      "claim": "סעיף 17א: total price includes all payments and taxes collected by the dealer, including VAT and unavoidable accompanying payments",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "כל תשלום אחר הנלווה לרכישת אותו נכס או שירות, בלי שניתנת לצרכן אפשרות מעשית לוותר עליו במסגרת העסקה.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "total-price-taxes-collected",
+      "claim": "סעיף 17א: taxes applying and collected by the dealer",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "\"המחיר הכולל\" – מחיר הכולל את סך כל התשלומים בעבור נכס או שירות ואת סך כל המסים החלים עליהם או על מכירתם והנגבים על ידי עוסק",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "shekels-only",
+      "claim": "סעיף 17ד: price published only as total price and only in Israeli currency; 17ב applies too",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "לא יפרסם עוסק ולא ינקוב, במפורש או במשתמע, מחיר של נכס או של שירות המוצע לצרכן, אלא אם כן הוא המחיר הכולל בלבד ורק במטבע ישראלי.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "foreign-currency-exception",
+      "claim": "סעיף 17ז(ב): foreign currency allowed for items in Part B of the First Schedule",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "כמפורט בחלק ב' של התוספת הראשונה, יכול שיהיה במטבע חוץ",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "card-minimum",
+      "claim": "סעיף 12א (Amendment 72): no minimum purchase for card payment",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "עוסק המאפשר לצרכן לשלם בכרטיס חיוב, לא יתנה את אפשרות התשלום באמצעות כרטיס חיוב בסכום רכישה מזערי.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "special-sale-s15",
+      "claim": "CPL s.15: special sale must state included goods, prior price, discount and conditions",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "עוסק שהודיע ברבים או במקום העסק על מכירה מיוחדת, יבהיר אילו טובין או שירותים כלולים בה",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "unit-price-distance",
+      "claim": "Unit Price Regulations 2008 apply to distance sales (תקנה 6(א)); unit price next to the price",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הגנת_הצרכן_(מחיר_ליחידת_מידה)",
+      "raw_snippet": "וכן על הצעה של טובין, הצגתם או מכירתם בעסקת מכר מרחוק",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/consumer-protection-law.md"
+      ]
+    },
+    {
+      "claim_id": "scl-unfair-term",
+      "claim": "Standard Contracts Law s.3 (סעיף 3): court voids or changes an unfair term; s.4 (סעיף 4) presumptions",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_האחידים",
+      "raw_snippet": "בית משפט ובית הדין יבטלו או ישנו, בהתאם להוראות חוק זה, תנאי בחוזה אחיד",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "scl-forum-arbitration",
+      "claim": "Standard Contracts Law סעיף 4(8),(9): arbitration of every dispute; exclusive choice of forum presumed unfair",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_האחידים",
+      "raw_snippet": "תנאי המתנה על הוראות דין בדבר מקום שיפוט או המקנה לספק זכות בלעדית לבחירת מקום השיפוט או הבוררות שבהם יתברר סכסוך;",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "scl-unilateral-change",
+      "claim": "Standard Contracts Law סעיף 4(4): presumed unfair a term letting the supplier set or change, alone and after formation, the price or other material obligations imposed on the customer, unless due to factors outside its control",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_האחידים",
+      "raw_snippet": "תנאי המקנה לספק זכות לקבוע או לשנות, על דעתו בלבד, ולאחר כריתת החוזה, מחיר או חיובים מהותיים אחרים המוטלים על הלקוח, זולת אם השינוי נובע מגורמים שאינם בשליטת הספק",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-level-aa",
+      "claim": "תקנה 35א(א): web accessibility per IS 5568 at level AA; regs 35 to 35ו",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "לפי תקן נגישות אינטרנט בהתאם לקווים המנחים הקבועים בו, ברמה AA",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-exempt-100k",
+      "claim": "תקנה 35ו(ז): exempt dealer or average turnover up to 100,000 NIS exempt",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "חייב שהוא עוסק פטור כהגדרתו בסעיף 1 לחוק המע\"מ או שהמחזור השנתי הממוצע שלו אינו עולה על 100,000 שקלים חדשים, יהיה פטור מביצוע התאמות נגישות לפי סימן זה.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-300k-expired",
+      "claim": "תקנה 35ו(ח): the 300,000 NIS exemption applied only until 26 October 2020",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "האמור בתקנת משנה (ז) יחול גם על חייב שהמחזור השנתי הממוצע שלו אינו עולה על 300,000 שקלים חדשים, עד יום ח' בחשוון התשפ\"א (26 באוקטובר 2020).",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-1m-pre2017",
+      "claim": "תקנה 35ו(ט): turnover 1,000,000 NIS or less exempt only for site operated before the regulations",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "חייב אשר המחזור הממוצע שלו עומד על 1,000,000 שקלים חדשים או פחות, יהיה פטור מביצוע התאמות נגישות לפי סימן זה באתר אינטרנט או יישום שהוא החל להפעיל לפני תחילתן של תקנות אלה",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-coordinator-25",
+      "claim": "תקנה 91(א): employer of at least 25 employees appoints an accessibility coordinator",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "חייב בביצוע התאמות נגישות לשירות המעסיק 25 עובדים לפחות, ימנה מתוך העובדים רכז נגישות",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-statement",
+      "claim": "תקנה 35ה: accessibility statement with adjustments, coordinator details and contact for reporting",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "הכוללת מידע בדבר התאמות נגישות שביצע וכן פרטי רכז נגישות ודרכי ההתקשרות עמו",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-60-days",
+      "claim": "תקנה 35א(ד)(1): deviation is a breach only if not fixed within 60 days of notice",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "והחייב לא תיקנה בתוך זמן סביר אך לא יאוחר מ-60 ימים מיום קבלת ההודעה",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-damages-50k",
+      "claim": "Accessibility breach: compensation without proof of harm up to 50,000 NIS",
+      "source_url": "https://www.kolzchut.org.il/he/הנגשת_אתרי_אינטרנט_ואפליקציות_לאנשים_עם_מוגבלות",
+      "raw_snippet": "פיצוי ללא הוכחת נזק בסך של עד 50,000 ₪",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "is5568-wcag20",
+      "claim": "IS 5568 Part 1 (2023) adopts WCAG 2.0",
+      "source_url": "https://www.gov.il/BlobFolder/legalinfo/israeli_accessibility_standards_pdf/he/sitedocs_si-5568-1-september-2023.pdf",
+      "raw_snippet": "Web Content Accessibility Guidelines (WCAG) 2.0",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "personal-data-definition",
+      "claim": "Privacy Protection Law סעיף 3 (Amendment 13): personal information, identifiable person incl. location data and online identifier",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "מי שניתן לזהותו במאמץ סביר, במישרין או בעקיפין, ובכלל זה באמצעות פרט מזהה, כגון שם, מספר זהות, מזהה ביומטרי, נתוני מיקום, מזהה מקוון",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "dpo-categories",
+      "claim": "סעיף 17ב1: privacy officer categories incl. data broker databases with more than 10,000 people",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "שמטרתו העיקרית היא איסוף מידע אישי לשם מסירתו לאחר כדרך עיסוק או בתמורה, לרבות שירותי דיוור ישיר, ויש במאגר מידע אישי על יותר מ-10,000 בני אדם",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "breach-notification",
+      "claim": "Data Security Regulations 2017 תקנה 11(ד): severe event reported immediately; individuals notified only if ordered",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144811.htm",
+      "raw_snippet": "אירע אירוע אבטחה חמור – (1) יודיע על כך בעל המאגר לרשם באופן מיידי",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "spam-existing-customer",
+      "claim": "s.30A(c) existing-customer exception: details given during purchase, notified, chance to refuse, similar product",
+      "source_url": "https://www.nevo.co.il/law_html/law01/032_002.htm",
+      "raw_snippet": "הנמען מסר את פרטיו למפרסם במהלך רכישה של מוצר או שירות, או במהלך משא ומתן לרכישה כאמור",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "spam-similar-product",
+      "claim": "s.30A(c)(3) similar product or service",
+      "source_url": "https://www.nevo.co.il/law_html/law01/032_002.htm",
+      "raw_snippet": "דבר הפרסומת מתייחס למוצר או לשירות מסוג דומה למוצר או לשירות האמורים בפסקה (1).",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "allocation-2025",
+      "claim": "Allocation number threshold 2025: above 20,000 NIS before VAT",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-071225-1/he/vat_inst-071225-1.pdf",
+      "raw_snippet": "לשנת 2025 סכום חשבונית המס ללא מע\"מ עולה על 20,000 ₪.",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "allocation-2026-jan",
+      "claim": "From 01.01.2026: above 10,000 NIS before VAT",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-071225-1/he/vat_inst-071225-1.pdf",
+      "raw_snippet": "הנפקת חשבונית בסכום העולה על 10,000 ₪ (ללא מע\"מ) תחייב קבלת מספר הקצאה",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "allocation-2026-jun",
+      "claim": "From 01.06.2026: above 5,000 NIS before VAT",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-071225-1/he/vat_inst-071225-1.pdf",
+      "raw_snippet": "הנפקת חשבונית בסכום העולה על 5,000 ₪ (ללא מע\"מ) תחייב קבלת מספר הקצאה",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "allocation-exempt-zero",
+      "claim": "Exempt-only or zero-rate invoices need no allocation number",
+      "source_url": "https://www.gov.il/BlobFolder/policy/inst-071225-1/he/vat_inst-071225-1.pdf",
+      "raw_snippet": "ביחס לחשבונית מס הכוללת רק עסקאות פטורות או חשבונית מס בשיעור אפס, לא נדרש מספר הקצאה",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "ppa-consent-opinion-2026",
+      "claim": "The PPA published its final opinion on consent on 25.2.2026",
+      "source_url": "https://www.shibolet.com/?p=24351",
+      "raw_snippet": "בתאריך 25.2.2026 פרסמה הרשות להגנת הפרטיות",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/consumer-protection-law.md"
+      ]
+    },
+    {
+      "claim_id": "ppa-consent-monitoring-tools",
+      "claim": "Commentary (Shibolet) notes the opinion leaves open whether embedding third-party monitoring tools for advertising has a reasonable connection to the service or implies a consent-management requirement",
+      "source_url": "https://www.shibolet.com/?p=24351",
+      "raw_snippet": "האם הטמעת כלי ניטור של צדדים שלישיים למטרות פרסום עולה כדי \"קשר סביר\" למאפייני השירות או שמא יש כאן דרישה סמויה להטמעת אמצעי ניהול הסכמות באתרים",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "unit-price-next-to-price",
+      "claim": "Distance sale: unit price displayed next to the goods price (reg. 3(ב))",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הגנת_הצרכן_(מחיר_ליחידת_מידה)",
+      "raw_snippet": "יוצג המחיר ליחידת מידה בצמוד למחיר הטובין",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ppa-informed-consent",
+      "claim": "The PPA consent opinion requires consent to be informed, including the right to refuse",
+      "source_url": "https://www.shibolet.com/?p=24351",
+      "raw_snippet": "הסכמה לפגיעה בפרטיות חייבת להיות \"מדעת\"",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cancel-info-on-invoices",
+      "claim": "סעיף 14ט(ה): cancellation details also on every invoice, receipt or payment notice and on the homepage; (ו) grouped with special prominence",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "(1) בחשבונית, בקבלה או בהודעת תשלום",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cancel-info-prominence",
+      "claim": "סעיף 14ט(ו): details appear next to each other with special prominence",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "יופיעו בסמוך אחד לשני, בהבלטה מיוחדת ובאותיות ברורות וקריאות",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "credit-note-full-amount",
+      "claim": "סעיף 14ז(א)(2): credit note carries the amount paid",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "הסכום הנקוב בשובר הזיכוי יהיה הסכום ששולם בעת ביצוע העסקה",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "credit-note-no-invoice",
+      "claim": "סעיף 14ז(א)(4): not conditioned on showing the invoice",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "מימוש שובר הזיכוי לא יותנה בהצגת החשבונית שניתנה לצרכן בעת ביצוע העסקה",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "credit-note-no-restriction",
+      "claim": "סעיף 14ז(א)(5): no restricting condition, including during a special sale",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "לא יהיה תוקף לתנאי המגביל את האפשרות לממש את שובר הזיכוי, לרבות לעניין מימושו במכירה מיוחדת",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "exemplary-50k",
+      "claim": "סעיף 31א(ג): up to 50,000 NIS for a repeat breach, a continuing breach or aggravated circumstances",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "פיצויים לדוגמה בסכום העולה על 10,000 שקלים חדשים ובלבד שאינו עולה על 50,000 שקלים חדשים, אם מצא כי ההפרה היא הפרה חוזרת או הפרה נמשכת או שהיא נעשתה בנסיבות מחמירות",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "exemplary-subscription",
+      "claim": "סעיף 31א(א)(2ב): continuing to bill after a cancellation notice for a continuing transaction",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "ביקש צרכן לבטל עסקה מתמשכת באמצעות הודעת ביטול לפי הוראות סעיף 14ט – והעוסק המשיך לחייב את הצרכן בתשלומים בשל העסקה",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cancel-regs-2010-scope",
+      "claim": "Cancellation Regulations 2010 (made under סעיף 14ו), תקנה 6 limits only the cancellation right under those regulations",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הגנת_הצרכן_(ביטול_עסקה)",
+      "raw_snippet": "זכות הביטול כאמור בתקנות אלה לא תחול לגבי",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cancel-regs-2010-swimwear",
+      "claim": "תקנה 6(א)(9): underwear including swimwear",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הגנת_הצרכן_(ביטול_עסקה)",
+      "raw_snippet": "הלבשה תחתונה לרבות בגדי ים",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-platform-exemption",
+      "claim": "תקנה 35ו(א)-(ב): certified auditor may exempt an adjustment the platform cannot technically support; up to 3 years, renewable",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "הוא יהיה תקף לתקופה של עד שלוש שנים ויהיה ניתן לחדשו לתקופה נוספת של עד שלוש שנים",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-platform-alternative",
+      "claim": "תקנה 35ו(ג): exempt business provides alternative accessibility and discloses the exemption in its statement",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "חייב שקיבל פטור יספק נגישות חלופית ויפרסם בהצהרת הנגישות לפי תקנה 35ה את דבר הפטור ואת ההתאמות החלופיות",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-social-network",
+      "claim": "תקנה 35ו(ד): content on a social-network infrastructure exempt where the network does not allow the adjustment",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "חייב יהיה פטור מביצוע התאמת נגישות מסוימת בשירותי אינטרנט שהוא מעביר על גבי תשתית של רשת חברתית, אם תשתית זו לא מאפשרת את ביצועה.",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-1m-three-years",
+      "claim": "תקנה 35ו(ט): the 1,000,000 NIS exemption is valid for three years and renewable",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "פטור זה יהיה תקף למשך שלוש שנים מתום שנת המס האחרונה שנכללה בבדיקת המחזור הממוצע של החייב ויהיה ניתן לחדשו כל שלוש שנים",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-alternative-asap",
+      "claim": "תקנה 35א(ד)(2): alternative adjustments as soon as possible after the notice",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "יבצע התאמות חלופיות בהקדם האפשרי ממועד קבלת ההודעה כדי להבטיח נגישות לשירות לאדם עם מוגבלות",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "spam-content-advert-word",
+      "claim": "s.30A(e)(1)(a): the word פרסומת at the start, and in the email subject line",
+      "source_url": "https://www.nevo.co.il/law_html/law01/032_002.htm",
+      "raw_snippet": "המילים \"פרסומת\", \"בקשת תרומה\" או \"תעמולה\", לפי העניין, יופיעו בתחילת דבר הפרסומת, ואם דבר הפרסומת משוגר באמצעות הודעה אלקטרונית – בכותרת ההודעה",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "spam-content-advertiser",
+      "claim": "s.30A(e)(1)(b): advertiser name, address and contact details",
+      "source_url": "https://www.nevo.co.il/law_html/law01/032_002.htm",
+      "raw_snippet": "שמו של המפרסם, כתובתו ודרכי יצירת הקשר עמו",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "spam-content-refusal",
+      "claim": "s.30A(e)(1)(c): right to refuse at any time and a simple way; valid internet address for email",
+      "source_url": "https://www.nevo.co.il/law_html/law01/032_002.htm",
+      "raw_snippet": "כתובת תקפה של המפרסם ברשת האינטרנט לצורך מתן הודעת סירוב",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "spam-content-sms",
+      "claim": "s.30A(e)(2): SMS only name and contact details for refusal",
+      "source_url": "https://www.nevo.co.il/law_html/law01/032_002.htm",
+      "raw_snippet": "מפרסם המשגר דבר פרסומת באמצעות הודעת מסר קצר יציין בדבר הפרסומת רק את שמו ואת דרכי יצירת הקשר עמו לצורך מתן הודעת סירוב",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pci-401-limited-revision",
+      "claim": "PCI DSS v4.0.1 is a limited revision with no added or deleted requirements",
+      "source_url": "https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1",
+      "raw_snippet": "There are no additional or deleted requirements in this revision.",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pci-2025-effective",
+      "claim": "Future-dated v4 requirements effective 31 March 2025",
+      "source_url": "https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1",
+      "raw_snippet": "Does PCI DSS v4.0.1 change the 31 March 2025 effective date for the new requirements? No.",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pci-321-retired",
+      "claim": "PCI DSS v3.2.1 retired 31 March 2024",
+      "source_url": "https://blog.pcisecuritystandards.org/all",
+      "raw_snippet": "PCI DSS v3.2.1 is Retiring on 31 March 2024",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amendment13-in-force",
+      "claim": "Amendment 13 entered into force on 14.8.2025 (PPA opinion)",
+      "source_url": "https://www.gov.il/BlobFolder/legalinfo/amendment-13-26-07-26/he/media_06-07-26.pdf",
+      "raw_snippet": "גם חובה חדשה זו נכנסה לתוקף ביום 14.8.25",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "amendment13-reporting-fine",
+      "claim": "Amendment 13 sanctions schedule: fine for not reporting a severe security event",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "דיווח לרשות אודות אירוע אבטחה חמור",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "wcag-contrast",
+      "claim": "WCAG 2.0 SC 1.4.3 (Level AA): contrast ratio of at least 4.5:1 for normal text",
+      "source_url": "https://www.w3.org/TR/WCAG20/",
+      "raw_snippet": "The visual presentation of text and images of text has a contrast ratio of at least",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "exemplary-repeat-def",
+      "claim": "סעיף 31א(ג)(2): repeat breach = within two years of a prior breach for which the dealer was convicted under s.23",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "בתוך שנתיים מהפרה קודמת של סעיף המנוי באותה פסקה שבשלה הורשע לפי סעיף 23",
+      "fetched_at": "2026-11-03T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/consumer-protection-law.md"
+      ]
+    },
+    {
+      "claim_id": "exemplary-continuing-def",
+      "claim": "סעיף 31א(ג)(2): continuing breach = after a notice under s.21(4) or an order under s.30",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "לאחר שנמסרה הודעה לפי סעיף 21(4) או שניתן צו לפי סעיף 30",
+      "fetched_at": "2026-11-03T19:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/consumer-protection-law.md"
+      ]
+    },
+    {
+      "claim_id": "spam-subscription-end",
+      "claim": "s.30A(d)(2): end of a continuing deal, including by cancellation, counts as a refusal notice",
+      "source_url": "https://www.nevo.co.il/law_html/law01/032_002.htm",
+      "raw_snippet": "יראו את הנמען כמי שנתן הודעת סירוב במועד סיום ההתקשרות, לרבות אם ההתקשרות הסתיימה בשל הודעת ביטול שנמסרה כדין",
+      "fetched_at": "2026-11-03T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "return-policy-notice-4c",
+      "claim": "סעיף 4ג(א): a dealer must post a notice of its policy on returning non-defective goods at its place of business",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "יציג במקום עסקו, במקום הנראה לעין ובאותיות ברורות וקריאות, מודעה המפרטת את מדיניותו לגבי החזרת טובין שלא עקב פגם",
+      "fetched_at": "2026-11-03T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-platform-further",
+      "claim": "תקנה 35ו(ב)(1): further exemption beyond two periods only by the Commissioner for special reasons",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "פטור נוסף מעבר לשתי תקופות אלה יינתן, מטעמים מיוחדים שיירשמו, בידי הנציב או מי מטעמו",
+      "fetched_at": "2026-11-03T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "access-platform-form",
+      "claim": "תקנה 35ו(ג): on request of a person with a disability, deliver the exemption form",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_865.htm",
+      "raw_snippet": "ולבקשת אדם עם מוגבלות ימסור לו את הטופס האמור בתקנת משנה (ב)",
+      "fetched_at": "2026-11-03T20:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"

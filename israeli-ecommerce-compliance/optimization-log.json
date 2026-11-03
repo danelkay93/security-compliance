@@ -1,0 +1,20 @@
+{
+  "cycles": [
+    {
+      "version": "1.5.0",
+      "date": "2026-11-03",
+      "lessons": [
+        "Description not changed this cycle (Phase 5.7 skipped). It still has no short legal-clause opener; owner decision 2026-10-08 removed the legal-advice wording, so any new opener must avoid it.",
+        "Deferred (Should cover): misleading advertising for stores (CPL ss.2, 7): fake reviews, paid influencer posts without disclosure, false scarcity timers, reference prices.",
+        "Deferred (Should cover): warranty certificates for listed products (Warranty and After-Sale Service Regulations 2006) and Sale Law non-conformity remedies.",
+        "Deferred (Should cover): Hebrew marking of goods (CPL s.17 and the marking order), price errors, installment and credit-sale disclosure, s.13א fixed-term renewals.",
+        "Deferred: reg. 35ו(ה) registered-users exemption, reg. 35ד video captioning, s.17ז(א) price-chapter exemptions, Amendment 74 call recording (in force about March 2027, re-check then).",
+        "Deferred: administrative fines and class-action exposure map (CPL s.22 onward; Class Actions Law 2006, Second Schedule).",
+        "nevo.co.il blocked the batch IP after heavy research fetching; keep local copies of statute texts for snippet checks and let verify-evidence.py do the live fetch.",
+        "The PPA consent opinion (25.2.2026) primary page on gov.il was not machine-readable; the evidence relies on a law-firm summary. Replace with the gov.il text when it can be read.",
+        "Expert r2 minors deferred: prudent SMS 'פרסומת' label, in-store regime details beyond the s.4ג pointer.",
+        "Sibling defect: israeli-privacy-shield attributes 'AI governance required for automated decision-making' to Amendment 13; the consolidated law has no AI or ADM provision."
+      ]
+    }
+  ]
+}
