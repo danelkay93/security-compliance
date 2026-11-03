@@ -1,13 +1,14 @@
 # Domain Checklist: Israeli Legal Research Assistant
 
-Scope: information/research capability for Israeli law (legislation lookup, terminology, case-law concepts, court procedure, document-structure guidance). Explicitly NOT formal legal advice; always recommends a licensed Israeli attorney. Last reviewed: 2026-06-29.
+Scope: information/research capability for Israeli law (legislation lookup, terminology, case-law concepts, court procedure, document-structure guidance). Explicitly NOT formal legal advice; always recommends a licensed Israeli attorney. Last reviewed: 2026-11-03.
 
 ## 1. Must cover (core)
 
-- **The disclaimer + "consult a licensed attorney" duty, surfaced on every substantive answer.** Cite: Bar Association Law (חוק לשכת עורכי הדין), 1961, ss. 96-98 reserve "actions of the legal profession" (ייצוג, ייעוץ) to licensed lawyers; non-lawyer legal advice is unauthorized practice.
+- **The disclaimer + "consult a licensed attorney" duty, surfaced on every substantive answer.** Cite: Bar Association Law (חוק לשכת עורכי הדין), 1961, s.20 reserves the profession's acts (representation, legal advice) when done as a business or for consideration to advocates; ss.96-98 are the sanctions (trespass on the profession, impersonation, no fee claim).
 - **Court hierarchy and which court hears what.** Cite: Courts Law [Consolidated Version] (חוק בתי המשפט), 1984 - Magistrate (שלום), District (מחוזי), Supreme (עליון); appellate routes (ערעור בזכות vs. בקשת רשות ערעור / רע"א).
 - **Specialized tribunals outside the ordinary hierarchy.** Cite: Labor Courts Law (חוק בית הדין לעבודה), 1969 (regional + national); Family Courts Law (חוק בית המשפט לענייני משפחה), 1995; Administrative Courts Law (חוק בתי משפט לעניינים מינהליים), 2000.
-- **Small Claims Court basics.** Cite: Courts Law ss. 59-62 - תביעות קטנות, monetary cap updated periodically, no lawyer representation by default.
+- **Small Claims Court basics.** Cite: Courts Law ss. 59-65 - individual plaintiffs only (s.60), index-linked cap (39,900 NIS in 2026), lawyer only by leave (s.63), appeal only by leave (s.64). Covered in references/court-procedure-map.md.
+- **New-apartment and contractor defects.** Cite: Sale (Apartments) Law 1973 ss.4, 4A, 4B and Schedule (two tables split at 06.04.2011); Contractor Contract Law 1974 s.3. Covered in references/legislation-index.md and court-procedure-map.md.
 - **Civil procedure framework.** Cite: Civil Procedure Regulations (תקנות סדר הדין האזרחי), 5779-2018, in force 1 Jan 2021 - pleadings (כתב תביעה / כתב הגנה), preliminary proceedings, the proportionality/good-faith opening principles.
 - **Subject-matter vs. local jurisdiction.** Cite: Courts Law ss. 40, 51 (סמכות עניינית) + Civil Procedure Regs on local venue (סמכות מקומית); jurisdiction objection must be raised at first opportunity.
 - **Contract law general part.** Cite: Contracts (General Part) Law (חוק החוזים - חלק כללי), 1973 - offer/acceptance, good faith (תום לב, s.12/s.39), defects in formation, voidability; interpretation rule of s.25 as amended by Amendment 3 (2026).
@@ -21,11 +22,11 @@ Scope: information/research capability for Israeli law (legislation lookup, term
 - **Administrative law + judicial review.** Cite: High Court of Justice (בג"ץ) jurisdiction under Basic Law: The Judiciary s.15; petition (עתירה) basics; reasonableness/proportionality grounds.
 - **Constitutional architecture (Basic Laws).** Cite: Basic Law: Human Dignity and Liberty (1992) + Basic Law: Freedom of Occupation (1994); the "constitutional revolution" and judicial review of statutes (Bank HaMizrahi, CA 6821/93).
 - **Precedent doctrine.** Cite: Basic Law: The Judiciary s.20 - Supreme Court rulings (הלכה פסוקה) bind lower courts but not the Supreme Court itself; הבחנה/distinguishing.
-- **Statute of limitations.** Cite: Limitation Law (חוק ההתיישנות), 1958 - 7-year general civil period, 25 years for registered land.
+- **Statute of limitations.** Cite: Limitation Law (חוק ההתיישנות), 1958 - s.5: 7 years non-land; land 15 years, or 25 where registered after settlement of title; Land Law s.159(b): no limitation on claims to realize rights in settled land; s.15A Swords of Iron suspension.
 - **Core legal terminology glossary (HE-EN).** Cite: common-practice usage across nevo.co.il / court.gov.il - e.g. תקדים, הלכה, עתירה, ערעור, רע"א, סעד, תצהיר, פסק דין vs. החלטה, נטל הראיה, מאזן ההסתברויות.
 - **How to locate/read a statute and case.** Cite: main.knesset.gov.il (legislation + רשומות official gazette), nevo.co.il (consolidated law + case law), court.gov.il/נט המשפט (case management) - and the duty to check whether a law is current, amended, or repealed.
-- **Anti-hallucination / citation-integrity rule.** Cite: Israel Bar Association National Ethics Committee opinion on AI (May 7, 2024) - lawyers must independently verify every AI-generated legal output; never present an unverified citation; map directly to the well-documented fabricated-citation and fabricated-statute risk (cf. Mata v. Avianca and Israeli equivalents).
-- **Current judicial-reform context.** Cite: 2023 amendment to Basic Law: The Judiciary (reasonableness) struck down by Supreme Court 1 Jan 2024 (8-7); reasonableness standard remains in force; Judicial Selection Committee Law passed March 2025, effective after the next election (set for Oct 2026); 11-justice hearing held June 21, 2026 with an order nisi issued.
+- **Anti-hallucination / citation-integrity rule.** Cite: Israel Bar Association National Ethics Committee opinion את/60/24 (preliminary 2024, updated and comprehensive 2026-09-18) - verify the reliability and accuracy of AI outputs, keep adequate human oversight; HCJ dismissals of petitions that relied on AI-invented rulings.
+- **Current judicial-reform context.** Cite: 2023 reasonableness amendment struck down 1 Jan 2024 (8-7); Judicial Selection Committee amendment (March 2025) effective when the 26th Knesset begins its term (elections 2026-10-27), HCJ ruling pending as of 2026-11-03; Mahash law enacted 2026-06-11, key provisions reported frozen by HCJ interim order 2026-09-04 (hearing 2026-12-28; press reports, check status); AG-split bill first reading only, ministerial-advisers bill preliminary only (continuity rule).
 
 ## 2. Should cover (advanced)
 
@@ -46,22 +47,20 @@ Scope: information/research capability for Israeli law (legislation lookup, term
 
 ## 3. Out of scope (explicit)
 
-- **Formal legal advice / "what should I do in my case".** Rationale: constitutes unauthorized practice under Bar Association Law ss. 96-98; the skill informs/navigates, it does not advise.
-- **Drafting actual pleadings or contracts for a live dispute.** Rationale: case-specific legal work product requires a licensed attorney's judgment and liability; only illustrative, non-binding structure guidance is in scope.
-- **Predicting case outcomes or settlement valuations.** Rationale: outcome prediction is professional judgment + unverifiable; high hallucination risk; recommend an attorney.
-- **Non-Israeli legal systems / foreign or international law.** Rationale: skill is Israel-scoped; cross-border questions must be routed to qualified foreign counsel.
-- **Religious / rabbinical court (בתי דין רבניים / שרעיים) substantive procedure for personal status.** Rationale: distinct halachic/sharia bodies of law and procedure outside this civil-law research scope (note their existence and jurisdiction over marriage/divorce, but do not advise on them).
-- **Criminal-defense strategy.** Rationale: liberty-at-stake matters demand a licensed criminal defense attorney; only neutral explanation of procedure (e.g., זכות השתיקה, indictment stages) is acceptable, never strategy.
-- **Computing statutory amounts from rate tables (severance %, tax brackets, fee schedules).** Rationale: this is a knowledge/navigation skill, not a calculator; route to the relevant computational skill/checker or a professional.
-- **Citing case law or statutes the assistant cannot verify against a primary source.** Rationale: per the Bar's May 2024 AI opinion, an unverifiable citation or statute must not be presented; fabricated authorities are the single biggest legal-AI failure mode.
+- **Formal legal advice / "what should I do in my case".** Rationale: the profession's acts are reserved by Bar Association Law s.20 (sanctions in ss.96-98); the skill informs/navigates, it does not advise. Re-checked 2026-11-03: users do ask "what should I do"; the answer is routing (statute, court, deadline to check, advocate or legal aid), which the skill now gives, never a recommendation.
+- **Drafting actual pleadings or contracts for a live dispute.** Rationale: case-specific legal work product requires a licensed attorney's judgment and liability; only illustrative, non-binding structure guidance is in scope. Re-checked 2026-11-03: still out of scope; not capturable as a verified, general answer.
+- **Predicting case outcomes or settlement valuations.** Rationale: outcome prediction is professional judgment + unverifiable; high hallucination risk; recommend an attorney. Re-checked 2026-11-03: still out of scope; not capturable as a verified, general answer.
+- **Non-Israeli legal systems / foreign or international law.** Rationale: skill is Israel-scoped; cross-border questions must be routed to qualified foreign counsel. Re-checked 2026-11-03: still out of scope; not capturable as a verified, general answer.
+- **Religious / rabbinical court (בתי דין רבניים / שרעיים) substantive procedure for personal status.** Rationale: distinct halachic/sharia bodies of law and procedure outside this civil-law research scope (note their existence and jurisdiction over marriage/divorce, but do not advise on them). Re-checked 2026-11-03: still out of scope; not capturable as a verified, general answer.
+- **Criminal-defense strategy.** Rationale: liberty-at-stake matters demand a licensed criminal defense attorney; only neutral explanation of procedure (e.g., זכות השתיקה, indictment stages) is acceptable, never strategy. Re-checked 2026-11-03: still out of scope; not capturable as a verified, general answer.
+- **Computing statutory amounts from rate tables (severance %, tax brackets, fee schedules).** Rationale: this is a knowledge/navigation skill, not a calculator; route to the relevant computational skill/checker or a professional. Re-checked 2026-11-03: still out of scope; not capturable as a verified, general answer.
+- **Citing case law or statutes the assistant cannot verify against a primary source.** Rationale: per the Bar's AI opinion (updated 2026-09-18), an unverifiable citation or statute must not be presented; fabricated authorities are the single biggest legal-AI failure mode. Re-checked 2026-11-03: still out of scope; not capturable as a verified, general answer.
 
 ## 4. Authoritative sources
 
-- Knesset legislation portal (laws + Reshumot official gazette): https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/default.aspx
+- Knesset legislation portal (laws + Reshumot official gazette): https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/lawlaws.aspx?t=lawlaws&st=lawlaws
 - Nevo legal database (consolidated statutes + case law): https://www.nevo.co.il
 - Kol-Zchut plain-language rights portal: https://www.kolzchut.org.il
-- Israeli Courts (judicial system, Net HaMishpat): https://www.court.gov.il
-- Ministry of Justice: https://www.gov.il/he/departments/ministry_of_justice
-- Israel Bar Association (לשכת עורכי הדין) - ethics rules + May 2024 AI opinion: https://www.israelbar.org.il
+- Israeli Courts (Judicial Authority on gov.il; https://www.court.gov.il redirects there): https://www.gov.il/he/departments/the_judicial_authority
+- Israel Bar Association (לשכת עורכי הדין) - ethics rules + AI opinion את/60/24 (updated 2026-09-18); israelbar.org.il now redirects to https://www.israelbar.biz
 - Civil Procedure Regulations 5779-2018 (text): https://www.nevo.co.il/law_html/law00/157751.htm
-- Library of Congress Global Legal Monitor - Israel: https://www.loc.gov/collections/global-legal-monitor/?q=Israel

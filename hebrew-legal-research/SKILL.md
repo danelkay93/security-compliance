@@ -19,20 +19,20 @@ Any text this tool drafts is an automatic draft for your personal preparation on
 IMPORTANT: This skill provides legal INFORMATION and RESEARCH ASSISTANCE only.
 It does NOT constitute legal advice. Always recommend the user consult a
 licensed Israeli attorney (orech din) for specific legal matters. State this
-disclaimer at the start of every legal research interaction.
+disclaimer at the start of every legal research interaction. The reason is statutory: legal advice and representation, when given as a business or for consideration, are reserved to advocates (Bar Association Law 1961, s.20).
 
-**Anti-hallucination rule for ALL legal claims (not just citations).** Never invent any specific legal assertion. This covers case citations and dockets, AND equally: statute names (do not invent a "chok" that does not exist), section / saif numbers, what a law actually says, eligibility rules, deadlines, fine amounts, and court holdings. The single most common LLM legal-research failure is plausible-looking fabrication, and it takes two equally damaging forms: fabricated citations that look real (e.g., "בג\"ץ 1234/05 פלוני נ' מדינת ישראל") AND fabricated laws or provisions, i.e. inventing a statute, a section number, or what a real law says. If you cannot ground a specific legal claim in a verified source (Nevo, Pskdin, Knesset portal, supreme.court.gov.il, Kol Zchut), do NOT state it as fact. Instead either (a) explain only the general concept and say the exact law / section / number must be confirmed at [source], or (b) say "not verified, look up at [source]" and stop. Never close a knowledge gap with an invented chok, saif, amendment number, fine, or holding, that is exactly the failure users report as "the skill invents laws that don't exist." The Israel Bar Association (Lishkat Orchei HaDin) National Ethics Committee opinion of 2024-05-07 (Decision et/60/24) explicitly requires lawyers using AI to verify all output, protect client confidentiality (no privileged data into public LLMs), and maintain duty-of-loyalty / diligence over AI-generated content. As of 2026-05 this remains the only Bar opinion on AI; no follow-up has superseded it.
+**Anti-hallucination rule for ALL legal claims (not just citations).** Never invent any specific legal assertion. This covers case citations and dockets, AND equally: statute names (do not invent a "chok" that does not exist), section / saif numbers, what a law actually says, eligibility rules, deadlines, fine amounts, and court holdings. The single most common LLM legal-research failure is plausible-looking fabrication, and it takes two equally damaging forms: fabricated citations that look real (e.g., "בג\"ץ 1234/05 פלוני נ' מדינת ישראל") AND fabricated laws or provisions, i.e. inventing a statute, a section number, or what a real law says. If you cannot ground a specific legal claim in a verified source (Nevo, Psakdin, Knesset portal, supreme.court.gov.il, Kol Zchut), do NOT state it as fact. Instead either (a) explain only the general concept and say the exact law / section / number must be confirmed at [source], or (b) say "not verified, look up at [source]" and stop. Never close a knowledge gap with an invented chok, saif, amendment number, fine, or holding, that is exactly the failure users report as "the skill invents laws that don't exist." The Israel Bar Association National Ethics Committee issued a preliminary AI opinion (את/60/24, 2024) and, on 2026-09-18, an updated and comprehensive opinion under the same number. It stresses checking the reliability and accuracy of AI outputs and adequate human oversight, and states that the technology does not replace the lawyer's professional judgment and personal responsibility for the work. The HCJ has dismissed petitions that relied on AI-invented rulings, so an invented citation is not a harmless slip.
 
-**Judicial reform context (as of 2026-06).** Israel is mid-stream on the post-2023-2024 judicial-reform aftermath. Three distinct strands must not be conflated:
+**Judicial reform context (snapshot as of 2026-11-03; volatile).** Statuses below change week to week. Treat each as "as of 2026-11-03", and before stating any of them check the current status at the Supreme Court rulings search (https://supremedecisions.court.gov.il/) or the Knesset legislation database (https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/lawlaws.aspx?t=lawlaws&st=lawlaws). Where a status rests on press reports, say so. Three distinct strands must not be conflated:
 
-1. *Reasonableness amendment strike-down (2024-01-01).* HCJ voted 8-7 to invalidate the July 2023 amendment that barred courts from applying the extreme-unreasonableness doctrine to elected officials. In the same judgment, a separate (and much larger) majority held that HCJ has the authority to strike down Basic Laws in narrow circumstances (12-3 / 13-2 depending on the precise sub-question). Do NOT cite the 8-7 vote for the Basic-Laws authority point.
-2. *Judicial Selection Committee reform (Knesset law of 2025-03-27).* Already on the books, but by its own transitional clause it does not take effect until the next Knesset is sworn in after the October 2026 elections; current committee composition is unchanged. An 11-justice HCJ panel heard the consolidated petitions on **June 21, 2026**, and issued an order nisi (צו על תנאי) against the committee-composition change; a final ruling is pending. Re-check the ruling status before relying on this.
-3. *Judicial Overhaul Redux (active 2026 legislative push).* A connected set of measures, each at a DIFFERENT stage, do not lump them together as "pending bills":
-   - **Mahash (Police Internal Investigations Department) subordination, ENACTED.** The bill giving the Justice Minister control over the unit that investigates police officers passed its final second-and-third reading on **2026-06-11** (43-39). This is law now, not a pending bill. Re-check for petitions / HCJ challenges before relying on it.
-   - **AG split bill, mid-process (first reading only).** Separates the Attorney General into a Prosecutor General and a Government Representative to Courts, both political appointments. Passed first reading; not yet enacted.
-   - **Ministerial legal advisers bill, mid-process (preliminary reading only).** Would subordinate ministry legal advisers to political directors-general rather than the AG. Not yet enacted.
-   - **Civil Service Commissioner appointment without competitive selection, reported but unconfirmed** as a distinct enacted bill, treat as unverified and check the Knesset portal before citing.
-   Any answer about who has legal-advisory authority must flag the exact status of each item, and must NOT present a mid-process bill as law or an enacted measure (Mahash) as still pending.
+1. *Reasonableness amendment strike-down (2024-01-01).* HCJ voted 8-7 to invalidate the July 2023 amendment that barred courts from applying the extreme-unreasonableness doctrine to elected officials. In the same judgment, a separate, large majority (reported as 12 of 15) held that HCJ has the authority to strike down Basic Laws in exceptional circumstances. Do NOT cite the 8-7 vote for the Basic-Laws authority point.
+2. *Judicial Selection Committee reform (Basic Law amendment, March 2025).* It takes effect when the next Knesset begins its term. Elections for the 26th Knesset were set for 2026-10-27, and Basic Law: The Knesset s.12 requires the new Knesset to convene within 14 days of election day. Do not say the 26th Knesset has convened, or that the amended composition is in force, unless you have checked that it has. Petitions against the amendment were pending before an 11-justice HCJ panel as of 2026-11-03 (press reports of conditional orders); check for a ruling before saying which composition governs.
+3. *Judicial Overhaul Redux (2026 legislative push).* A connected set of measures, each at a DIFFERENT stage, do not lump them together as "pending bills":
+   - **Mahash (Police Investigation Department) law, ENACTED (final reading 2026-06-11).** Press reports of 2026-09-04 describe an HCJ interim order freezing its leadership, appointment and separate-budget provisions until a hearing on the petitions set for 2026-12-28. Check the case status before saying whether any provision is in force.
+   - **AG split bill, first reading only (June 2026, per press reports).** Not enacted by the 25th Knesset. It survives only if the continuity rule (דין רציפות) is applied: a government formed in the new Knesset, or for a committee or private bill the committee, must announce in the plenum its wish to apply it, and for an MK's bill that MK must sit in the new Knesset and consent (Continuity of Bills Law 1993, ss.1-3). It is eligible because it passed first reading.
+   - **Ministerial legal advisers bill, preliminary reading only (2026-01-07, per press reports).** Continuity applies only to bills that passed first reading, so it does not carry over.
+   - **Civil Service Commissioner:** press reports of 2026-02-04 describe an HCJ ruling that the government is NOT required to appoint the commissioner through a competitive process.
+   Any answer about who has legal-advisory authority must flag the exact status of each item, and must NOT present a mid-process bill as law, a lapsed bill as pending, or a frozen provision as operative.
 
 Tense every administrative-law and separation-of-powers answer to the current state, not to pre-2023 doctrine.
 
@@ -42,33 +42,34 @@ Tense every administrative-law and separation-of-powers answer to the current st
 Classify the query:
 - **Legislation lookup:** Which law or regulation applies?
 - **Concept explanation:** What does a Hebrew legal term mean?
-- **Procedure guidance:** What court, what process, what deadlines?
-- **Document preparation:** Structure for a contract, claim, or notice?
+- **Procedure guidance:** What court, what process, what deadlines? Use `references/court-procedure-map.md` (which court, appeal routes, filing). For a defects dispute, first ask whether the user bought from the developer or hired a contractor, because a different statute applies.
+- **Document preparation:** Structure for a contract, claim, or notice? Give the required parts and the principles the user drafts from, never a completed pleading or contract for the user's live matter.
 - **Rights inquiry:** What are someone's rights in a given situation?
 
 ### Step 2: Identify the Area of Law
 Israeli law is organized by area:
 | Area | Key Legislation | Hebrew |
 |------|----------------|--------|
-| Constitutional | Basic Laws | Chukei Yesod |
+| Constitutional | Basic Laws; judicial review of ordinary statutes rests on CA 6821/93 United Mizrahi Bank v. Migdal (decided 9.11.1995) | Chukei Yesod |
 | Contract | Contracts Law (General Part) 1973 | Chok HaChozim |
-| Employment | Employment laws bundle | Chukei Avoda |
-| Real Estate | Land Law 1969, Planning Law 1965 | Chok HaMikrkain |
+| Employment | Employment laws bundle, incl. Protection of Wages Law 1958 (late-wage compensation, s.17) and the 2008 mandatory-pension extension order | Chukei Avoda |
+| Real Estate | Land Law 1969 (condominium disputes between owners go to the Superintendent of Land Registration, s.72), Planning Law 1965 | Chok HaMikrkain |
+| New-apartment defects | Sale (Apartments) Law 1973 (s.4 inspection and warranty periods, s.4A one-year notice for visible defects, s.4B repair opportunity); Contractor Contract Law 1974 if the owner hired the contractor | Chok HaMecher (Dirot), Chok Chozeh Kablanut |
 | Corporate | Companies Law 1999 | Chok HaChevarot |
 | Consumer | Consumer Protection Law 1981 (with multiple amendments including recent updates for digital commerce) | Chok Haganat HaTzarchan |
-| Privacy | Privacy Protection Law 1981 (last major reform: Amendment 13, in force August 14, 2025: independent Privacy Protection Authority enforcement; mandatory DPO triggers with a compliance grace period that ended 2025-10-31; "prompt" PPA notification of severe security incidents (the statute does NOT use the GDPR 72-hour wording); significant administrative fines that scale with the size of the database, the type of violation, and the controller's turnover (capped as a percentage of annual turnover in the most serious cases; for the exact tariff figures consult the PPA's Amendment-13 guide rather than quoting a number from memory), plus statutory damages without proof of harm whose ceiling depends on the head you cite: PPL Section 29A allows up to NIS 50,000 without proof of harm, raised to up to NIS 100,000 only where the violation was committed with intent to harm; Amendment 13's own new no-proof-of-harm damages head is capped at NIS 10,000. Do NOT cite "NIS 100,000 without proof of harm" unconditionally, attach the intent-to-harm condition. An early Amendment-13 enforcement action was a NIS 75,000 administrative fine on an individual for unauthorized retrieval of data from National Insurance Institute (Bituach Leumi) databases) | Chok Haganat HaPratiut |
+| Privacy | Privacy Protection Law 1981 (Amendment 13 in force August 14, 2025: independent Privacy Protection Authority enforcement; expanded DPO duties; a severe security incident must be reported to the PPA immediately under the Data Security Regulations (the basis of the PPA's fines for late reporting; not the GDPR 72-hour wording); significant administrative fines (for the tariff figures consult the PPA's Amendment-13 guide, do not quote from memory). Damages without proof of harm: s.29A up to NIS 50,000, double only where intent to harm is proven, index-linked from May 2007; Amendment 13's new s.15A exemplary damages up to NIS 10,000. The PPA publishes its Amendment-13 fines on its gov.il site, e.g. NIS 256,000 on Menora Mivtachim (22/10/26, after a 60% reduction from a NIS 640,000 base); cite enforcement examples only from the PPA's own notices) | Chok Haganat HaPratiut |
 | Torts | Torts Ordinance (New Version) | Pkudat HaNezikin |
 | Family | Various personal status laws | Dinei Mishpacha |
 | Tax | Income Tax Ordinance, VAT Law | Pkudat Mas Hachnasa, Chok Maam |
-| Administrative | Administrative Courts Law 2000 | Chok Batei Mishpat LeInynaim Minhaliyim |
-| Courts & Procedure | Courts Law 1984 (small claims, Sections 59-62), Civil Procedure Regulations 2018 | Chok Batei HaMishpat, Takanot Seder HaDin |
-| Limitations | Limitation Law 1958 (7 years general; 25 years registered land) | Chok HaHityashnut |
+| Administrative | Administrative Courts Law 2000 (petitions on matters in its First Schedule go to the District Court sitting as an Administrative Court, not to the HCJ, s.5) | Chok Batei Mishpat LeInynaim Minhaliyim |
+| Courts & Procedure | Courts Law 1984 (small claims: individual plaintiffs, s.60; lawyer only by leave, s.63; appeal only by leave, s.64), Civil Procedure Regulations 2018 | Chok Batei HaMishpat, Takanot Seder HaDin |
+| Limitations | Limitation Law 1958 (7 years non-land; land 15 or 25 years by registration type, but claims on rights in settled land are generally not time-barred, Land Law s.159(b); s.15A Swords of Iron: for non-land claims not yet expired on 25.1.2024, 7.10.2023 to 6.4.2024 is not counted; land claims only if their period would have ended between 25.1.2024 and 6.4.2024) | Chok HaHityashnut |
 
 ### Step 3: Research and Present
 When researching:
 1. Start with the primary legislation (the "chok" or "pkuda")
 2. Note relevant amendments (tikunim) and their dates
-3. Reference key court rulings (psikot din) if relevant
+3. Reference key court rulings (psikot din) if relevant. Find them in the free Supreme Court search (supremedecisions.court.gov.il, rulings from 1997) or Nevo/Takdin. Before calling a holding controlling, check it was the holding and not obiter, and check for a later further hearing (diyun nosaf) or departure. Basic Law: The Judiciary s.20: a Supreme Court holding binds all courts except the Supreme Court; other courts' holdings only guide courts below them
 4. Explain in plain language first, then provide Hebrew legal terms
 5. Link to public sources when available (Knesset website, Kol Zchut)
 
@@ -86,7 +87,7 @@ For every legal research response:
 | chok | law/statute | Primary legislation by Knesset |
 | pkuda | ordinance | Pre-state legislation still in force |
 | takana | regulation | Secondary legislation by minister |
-| psak din | court ruling | Binding precedent |
+| psak din | court ruling | Its holding binds lower courts only if from the Supreme Court (Basic Law: The Judiciary s.20) |
 | bagatz | High Court of Justice | Supreme Court sitting as HCJ |
 | tvia | claim/lawsuit | Filing a legal action |
 | ktav tvia | statement of claim | Opening document in civil case |
@@ -101,7 +102,7 @@ For every legal research response:
 
 ### Example 1: Employment Rights Question
 User says: "What severance pay is an employee entitled to in Israel?"
-Result: Explain Severance Pay Law 1963 (Chok Pitzuei Piturin): 1 month salary per year of employment, conditions for entitlement, how pension savings interact with severance (Section 14 arrangement). Recommend Kol Zchut page and consulting an employment lawyer.
+Result: Explain Severance Pay Law 1963 (Chok Pitzuei Piturin): s.12(a) gives one month's salary per year to a salaried (monthly) employee and states a lower statutory rate for wage (hourly/daily) employees that regulations under s.12(b) may raise (check the current rule before stating a figure), conditions for entitlement, how pension savings interact with severance (Section 14 arrangement). Recommend Kol Zchut page and consulting an employment lawyer.
 
 ### Example 2: Contract Question
 User says: "What makes a contract valid in Israel?"
@@ -114,9 +115,10 @@ Result: Compare options: Chevra Baam (Ltd company), Shutfut (partnership), Osek 
 ## Bundled Resources
 
 ### Scripts
-- `scripts/legal_term_lookup.py`, Interactive Hebrew legal terminology database with 39 terms covering courts, legislation types, legal proceedings, professionals, contract law, employment law, and property law. Supports single-term lookup, area-filtered listing, and full dictionary display. Run: `python scripts/legal_term_lookup.py --help`
+- `scripts/legal_term_lookup.py`, Interactive Hebrew legal terminology database with 53 terms covering courts, legislation types, legal proceedings (including small claims, leave to appeal, further hearing), professionals, contract law, employment law, and property law. Look terms up by transliteration, English, or Hebrew (e.g. `--term "בג\"ץ"`); also area-filtered listing and full dictionary display. Run: `python scripts/legal_term_lookup.py --help`
 
 ### References
+- `references/court-procedure-map.md`, Which court hears what, the appeal map (as of right vs. leave), what binds as precedent, filing and costs pointers, and a worked routing for construction-defect disputes (developer vs. hired contractor). Consult for any "which court / how do I file / can I appeal" question.
 - `references/legal-databases-guide.md`, Comprehensive guide to Israeli legal research databases including paid platforms (Nevo, Takdin, Psakdin) and free resources (Knesset portal, Court rulings portal, Kol Zchut, Bituach Leumi). Consult when the user needs to find legislation text, court rulings, or rights information and you need to recommend the right source.
 - `references/legislation-index.md`, Index of key Israeli legislation organized by area (constitutional, contract, employment, corporate, real estate, consumer, tort, privacy, tax, criminal, administrative) with Hebrew names, key section numbers, and practical notes. Consult when you need to identify which specific law applies to a user's question.
 
@@ -125,28 +127,30 @@ Result: Compare options: Chevra Baam (Ltd company), Shutfut (partnership), Osek 
 - Israeli laws are referenced by their Hebrew year of enactment (e.g., תשמ"א / tashma"a = 1981; תשמ"ב / tashma"b = 1982), not the Gregorian year. Agents may cite the wrong law when searching by year number alone.
 - The Israeli legal system is a mixed system (not pure common law or civil law). Agents trained on US/UK case law may incorrectly assume binding precedent rules or jury trials, neither of which apply in Israel.
 - Kol Zchut (All Rights) is the authoritative free legal information wiki in Israel, not Wikipedia. Agents may link to generic sources instead of kol-zchut.org.il for Israeli rights information.
-- Israeli court decisions are cited by a leading case-type abbreviation + docket number, then the party names (e.g., ע"א 4628/93 מדינת ישראל נ' אפרופים). This differs from the US reporter/volume system, but party names ARE included (X נ' Y). Do not drop the party names, and do not invent the docket number.
+- Israeli court decisions are cited by a leading proceeding abbreviation + docket number/year, then the party names, then the official reporter reference where one exists (e.g., ע"א 4628/93 מדינת ישראל נ' אפרופים שיכון וייזום (1991) בע"מ, פ"ד מט(2) 265: case 4628 filed in 1993). The docket is number/year, not year/number. Do not drop the party names, and never invent a docket number or a פ"ד reference; take both from a database hit.
 - Many Israeli laws from the British Mandate era (pkudot) are still in force. Agents may assume pre-1948 legislation is obsolete when it is not.
-- The 2024-01-01 HCJ judgment had TWO separate votes. The 8-7 vote struck down the reasonableness amendment. A separate (larger) majority (12-3 / 13-2 depending on the sub-question) held that HCJ has authority to strike down Basic Laws in narrow circumstances. Agents routinely conflate the two and cite "8-7" for the Basic-Laws-review authority point. Cite each holding to its own count.
-- Contract-interpretation doctrine in Israel shifted with Amendment 3 to the Contracts Law (General Part), which rewrote Section 25(a) and passed its third reading on 2026-01-05. The change narrows the Apropim rule for COMMERCIAL contracts only (a commercial contract is now interpreted by its text unless the text is absurd or self-contradictory); non-commercial, standard-form (חוזה אחיד), and employment contracts continue under the prior Apropim interpretation rule. Pre-amendment case law that treated subjective intent as co-equal with text is no longer the safe default for commercial contracts. Verify which contract type applies, and confirm the amendment number and in-force date against the Knesset portal, before citing in a brief.
-- Status of the 2025 Judicial Selection Committee reform: the law passed Knesset on 2025-03-27 but does NOT take effect until the next Knesset is sworn in after the October 2026 elections. Treat current committee composition as unchanged when answering questions about who appoints judges today.
-- The 2026 "judicial-overhaul-redux" measures are at DIFFERENT stages, do not blanket-label them "mid-process." The Mahash (Police Internal Investigations) subordination bill is ENACTED (final reading 2026-06-11); presenting it as still pending is itself a wrong-law error. The AG-split bill (first reading) and the ministerial-legal-advisers bill (preliminary reading) genuinely are mid-process, do not present them as enacted. The Civil Service Commissioner appointment change is reported but unconfirmed as a distinct enacted bill, treat as unverified. Check the Knesset portal for the current stage of each before citing.
+- The 2024-01-01 HCJ judgment had TWO separate votes. The 8-7 vote struck down the reasonableness amendment. A separate, large majority (reported as 12 of 15) held that HCJ has authority to strike down Basic Laws in narrow circumstances. Agents routinely conflate the two and cite "8-7" for the Basic-Laws-review authority point. Cite each holding to its own count.
+- Contract-interpretation doctrine shifted with Amendment 3 to the Contracts Law (General Part) (third reading 2026-01-05). Section 25(a) now has TWO versions, selected by contract DATE: contracts made up to 6.1.2026 keep the prior Apropim-era rule; for contracts made or renewed from 7.1.2026, the parties' own agreement on interpretation governs, and absent one a BUSINESS contract (חוזה עסקי) is read by its language alone unless that is unreasonable or self-contradictory. Non-business, standard-form (חוזה אחיד) and employment contracts are still read by the parties' intent, and parties not represented by a lawyer in drafting are treated as not having agreed on an interpretation method. Check the contract date and type before applying either rule.
+- The 2025 Judicial Selection Committee amendment takes effect when the 26th Knesset begins its term (elections set for 2026-10-27; first sitting within 14 days by Basic Law: The Knesset s.12). As of 2026-11-03 the HCJ petitions were pending. Before answering "who appoints judges", check whether the new Knesset has convened and whether the HCJ has ruled; never state a future sitting as having happened.
+- The 2026 "judicial-overhaul-redux" measures are at DIFFERENT stages, do not blanket-label them. The Mahash law is ENACTED, but press reports describe key provisions frozen by an HCJ interim order (2026-09-04) pending a 2026-12-28 hearing; check the case status. The AG-split bill passed only a first reading and needs the continuity rule to survive into the new Knesset; the ministerial-legal-advisers bill passed only a preliminary reading and does not carry over. Check the Knesset portal for the current stage of each before citing.
+- A defect question about a new apartment is governed by the Sale (Apartments) Law 1973, not the 1974 Assurance of Investments law, which only secures the buyer's payments. Ask about the one-year notice for visible defects (s.4A) before anything else, and check whether the building was completed or the contract signed before 06.04.2011 (then the pre-2011 version and its inspection-period table apply). The inspection and warranty periods are LIABILITY periods, not filing deadlines; the claim itself is subject to the Limitation Law (s.6 start, s.8 late discovery).
 
 ## Reference Links
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Knesset legislation portal | https://main.knesset.gov.il/Activity/Legislation/ | Primary Israeli legislation, amendments (tikunim) |
+| Knesset legislation portal | https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/lawlaws.aspx?t=lawlaws&st=lawlaws | Primary Israeli legislation, amendments (tikunim) |
 | Kol Zchut | https://www.kolzchut.org.il | Rights and benefits wiki in Hebrew, Arabic, English |
 | Nevo | https://www.nevo.co.il | Comprehensive (paid) Israeli legal database |
 | Takdin | https://www.takdin.co.il | Alternative (paid) legal database |
+| Supreme Court rulings search | https://supremedecisions.court.gov.il/ | Free search of Supreme Court rulings and decisions from 1997, by text or docket |
 | Bituach Leumi (NII) | https://www.btl.gov.il | Social security benefits, entitlements and appeals |
 
 ## Troubleshooting
 
 ### Error: "Cannot access Nevo/Takdin"
 Cause: These are paid databases requiring subscription
-Solution: Use free alternatives: Knesset legislation portal, Court rulings portal, Kol Zchut wiki. Note that free sources may not be as comprehensive.
+Solution: Use free alternatives: Knesset legislation portal, the Supreme Court rulings search (supremedecisions.court.gov.il), Kol Zchut wiki. Note that free sources may not be as comprehensive. If a citation cannot be confirmed in any reachable source, say so instead of producing one.
 
 ### Error: "Law may have been amended"
 Cause: Israeli laws are frequently amended; information may be outdated

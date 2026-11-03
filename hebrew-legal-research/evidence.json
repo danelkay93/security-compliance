@@ -1,43 +1,392 @@
 {
   "schemaVersion": "1.0",
   "skill": "hebrew-legal-research",
-  "generated_at": "2026-06-28T23:59:00Z",
+  "generated_at": "2026-11-03T17:30:00Z",
   "claims": [
     {
-      "claim_id": "contracts-amendment-3-sec-25a",
-      "claim": "Amendment 3 to the Contracts Law (General Part) rewrote Section 25(a) (third reading 2026-01-05), narrowing the Apropim interpretation rule to COMMERCIAL contracts only; non-commercial, standard-form, and employment contracts stay under the prior Apropim rule. It is a statute, not a case-law reversal. Also covers: סעיף 25",
+      "claim_id": "sale-apartments-s4-bedek",
+      "claim": "Sale (Apartments) Law 1973 s.4: during the inspection period the seller is liable unless it proves the buyer caused the defect [s.4, s.4(a)(2)]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המכר_(דירות)",
+      "raw_snippet": "תוך תקופת הבדק התגלתה אי־התאמה בדירה, זולת אם הוכיח המוכר שאי־ההתאמה נגרמה בשל מעשה או מחדל של הקונה או קונה המשנה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "sale-apartments-s4-warranty",
+      "claim": "Warranty period is three years after the inspection period; buyer proves design/work/materials",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המכר_(דירות)",
+      "raw_snippet": "”תקופת אחריות“ – תקופה של שלוש שנים שתחילתה בתום תקופת הבדק",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "sale-apartments-s4-20y",
+      "claim": "Fundamental (structural) defect: 20-year rule",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המכר_(דירות)",
+      "raw_snippet": "(4) בתוך תקופה של 20",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "sale-apartments-s4a-notice",
+      "claim": "s.4A: a defect discoverable at handover must be notified within one year of handover [s.4A, Section 4A, סעיף 4א]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המכר_(דירות)",
+      "raw_snippet": "אם הודיע עליה הקונה או קונה המשנה למוכר בתוך שנה ממועד העמדת הדירה לרשות הקונה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "sale-apartments-s4b-repair",
+      "claim": "s.4B: buyer must give the seller a proper opportunity to repair [s.4B, סעיף 4ב]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המכר_(דירות)",
+      "raw_snippet": "על הקונה או קונה המשנה לתת למוכר הזדמנות נאותה לתקנה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "sale-apartments-seller-def",
+      "claim": "Seller = one who sells an apartment it built or will build",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המכר_(דירות)",
+      "raw_snippet": "”מוכר“ – מי שמוכר דירה שבנה או שהוא עתיד לבנות",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "kz-defects-1-7-years-and-2011-1",
+      "claim": "Inspection periods run 1 to 7 years by defect type; separate table for contracts from 06.04.2011; complaint to the Registrar of Contractors",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "והיא נמשכת בין שנה ל-7 שנים על פי מהות הליקוי",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page)",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "kz-defects-1-7-years-and-2011-2",
+      "claim": "Inspection periods run 1 to 7 years by defect type; separate table for contracts from 06.04.2011; complaint to the Registrar of Contractors",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "תקופות הבדק על דירה שחוזה המכר לגביה נכרת מיום 06.04.2011 ואילך",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page)",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "kz-defects-1-7-years-and-2011-3",
+      "claim": "Inspection periods run 1 to 7 years by defect type; separate table for contracts from 06.04.2011; complaint to the Registrar of Contractors",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "במקרה שהקבלן לא מתקן את הליקויים ניתן להגיש נגדו תלונה לרשם הקבלנים",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page)",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "contractor-contract-s3",
+      "claim": "Contractor Contract Law 1974 s.3: notify the contractor within reasonable time and give opportunity to repair",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "raw_snippet": "על המזמין להודיע לקבלן על הפגם זמן סביר לאחר שגילה אותו או שהיה עליו לגלותו, ואם הפגם ניתן לתיקון – לתת לקבלן הזדמנות נאותה לתקנו",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "companies-law-toc-1",
+      "claim": "Companies Law 1999 parts per the statute's table of contents [Part 2, Part 3, Part 4, Part 5, Part 6, Part 7, Part 8, Part 8A, Part 10, Chapter 5, Chapter 1]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החברות",
+      "raw_snippet": "חלק שני: ייסוד החברה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "companies-law-toc-2",
+      "claim": "Companies Law 1999 parts per the statute's table of contents [Part 2, Part 3, Part 4, Part 5, Part 6, Part 7, Part 8, Part 8A, Part 10, Chapter 5, Chapter 1]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החברות",
+      "raw_snippet": "חלק חמישי: בעל מניה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "companies-law-toc-3",
+      "claim": "Companies Law 1999 parts per the statute's table of contents [Part 2, Part 3, Part 4, Part 5, Part 6, Part 7, Part 8, Part 8A, Part 10, Chapter 5, Chapter 1]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החברות",
+      "raw_snippet": "חלק שישי: נושאי המשרה בחברה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "companies-law-toc-4",
+      "claim": "Companies Law 1999 parts per the statute's table of contents [Part 2, Part 3, Part 4, Part 5, Part 6, Part 7, Part 8, Part 8A, Part 10, Chapter 5, Chapter 1]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החברות",
+      "raw_snippet": "פרק חמישי: עסקאות עם בעלי ענין חלק שביעי: הון החברה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "companies-law-toc-5",
+      "claim": "Companies Law 1999 parts per the statute's table of contents [Part 2, Part 3, Part 4, Part 5, Part 6, Part 7, Part 8, Part 8A, Part 10, Chapter 5, Chapter 1]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החברות",
+      "raw_snippet": "חלק שמיני: רכישת חברות פרק ראשון: מיזוג",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "companies-law-toc-6",
+      "claim": "Companies Law 1999 parts per the statute's table of contents [Part 2, Part 3, Part 4, Part 5, Part 6, Part 7, Part 8, Part 8A, Part 10, Chapter 5, Chapter 1]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החברות",
+      "raw_snippet": "חלק שמיני א׳: פירוק [תיקון: תשע״ח]",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "contracts-law-s15-20-1",
+      "claim": "Contracts Law ss.15 misrepresentation, 17 duress, 18 exploitation, 19 partial cancellation, 20 cancellation notice [Section 15, Section 17, Section 18, Section 19, Section 20, Saif 14, Saif 15, Saif 17, Saif 18, Saif 19, Saif 20]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_(חלק_כללי)",
+      "raw_snippet": "15. הטעיה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "contracts-law-s15-20-2",
+      "claim": "Contracts Law ss.15 misrepresentation, 17 duress, 18 exploitation, 19 partial cancellation, 20 cancellation notice [Section 15, Section 17, Section 18, Section 19, Section 20, Saif 14, Saif 15, Saif 17, Saif 18, Saif 19, Saif 20]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_(חלק_כללי)",
+      "raw_snippet": "17. כפיה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "contracts-law-s15-20-3",
+      "claim": "Contracts Law ss.15 misrepresentation, 17 duress, 18 exploitation, 19 partial cancellation, 20 cancellation notice [Section 15, Section 17, Section 18, Section 19, Section 20, Saif 14, Saif 15, Saif 17, Saif 18, Saif 19, Saif 20]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_(חלק_כללי)",
+      "raw_snippet": "18. עושק מי שהתקשר בחוזה עקב ניצול שניצל הצד השני או אחר מטעמו את מצוקת המתקשר, חולשתו השכלית או הגופנית או חוסר נסיונו, ותנאי החוזה גרועים במידה בלתי סבירה מן המקובל",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "contracts-law-s15-20-4",
+      "claim": "Contracts Law ss.15 misrepresentation, 17 duress, 18 exploitation, 19 partial cancellation, 20 cancellation notice [Section 15, Section 17, Section 18, Section 19, Section 20, Saif 14, Saif 15, Saif 17, Saif 18, Saif 19, Saif 20]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_(חלק_כללי)",
+      "raw_snippet": "19. ביטול חלקי",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "contracts-law-s15-20-5",
+      "claim": "Contracts Law ss.15 misrepresentation, 17 duress, 18 exploitation, 19 partial cancellation, 20 cancellation notice [Section 15, Section 17, Section 18, Section 19, Section 20, Saif 14, Saif 15, Saif 17, Saif 18, Saif 19, Saif 20]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_(חלק_כללי)",
+      "raw_snippet": "ביטול החוזה יהיה בהודעת המתקשר לצד השני תוך זמן סביר לאחר שנודע לו על עילת הביטול",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "contracts-law-s2-offer-public",
+      "claim": "An offer may be addressed to the public (s.2)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_(חלק_כללי)",
+      "raw_snippet": "הפנייה יכול שתהיה לציבור",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "contracts-amendment-3-s25a-1",
+      "claim": "Amendment 3: two versions of s.25(a) split at 6.1.2026 / 7.1.2026; business contract read by language; non-business/standard/employment by intent; unrepresented parties deemed not to agree [Section 25, Section 25(a), סעיף 25, s.25(a)]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_(חלק_כללי)",
+      "raw_snippet": "(נוסח לחוזים שנכרתו עד יום 6.1.2026)",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "contracts-amendment-3-s25a-2",
+      "claim": "Amendment 3: two versions of s.25(a) split at 6.1.2026 / 7.1.2026; business contract read by language; non-business/standard/employment by intent; unrepresented parties deemed not to agree [Section 25, Section 25(a), סעיף 25, s.25(a)]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_(חלק_כללי)",
+      "raw_snippet": "(נוסח לחוזים שנכרתו או חודשו החל מיום 7.1.2026): (1) אופן הפרשנות של חוזה והראיות שיהיו קבילות לפירושו יהיו ככל אשר הסכימו הצדדים",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "contracts-amendment-3-s25a-3",
+      "claim": "Amendment 3: two versions of s.25(a) split at 6.1.2026 / 7.1.2026; business contract read by language; non-business/standard/employment by intent; unrepresented parties deemed not to agree [Section 25, Section 25(a), סעיף 25, s.25(a)]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_(חלק_כללי)",
+      "raw_snippet": "(2) חוזה עסקי שלא נקבעו בו הוראות לעניין אופן הפרשנות יפורש בהתאם ללשונו בלבד",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "contracts-amendment-3-s25a-4",
+      "claim": "Amendment 3: two versions of s.25(a) split at 6.1.2026 / 7.1.2026; business contract read by language; non-business/standard/employment by intent; unrepresented parties deemed not to agree [Section 25, Section 25(a), סעיף 25, s.25(a)]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_(חלק_כללי)",
+      "raw_snippet": "(4) חוזה שאינו חוזה עסקי, חוזה אחיד אף אם הוסכם בו אחרת, וכן חוזה עבודה או הסכם קיבוצי יפורשו לפי אומד דעתם של הצדדים",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "contracts-amendment-3-s25a-5",
+      "claim": "Amendment 3: two versions of s.25(a) split at 6.1.2026 / 7.1.2026; business contract read by language; non-business/standard/employment by intent; unrepresented parties deemed not to agree [Section 25, Section 25(a), סעיף 25, s.25(a)]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החוזים_(חלק_כללי)",
+      "raw_snippet": "יראו צדדים שאינם מיוצגים על ידי עורך דין לעניין עריכת החוזה כצדדים שלא הסכימו על אופן הפרשנות",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "contracts-amendment-3-third-reading",
+      "claim": "Amendment 3 (narrowing Apropim) passed third reading, reported 2026-01-06",
       "source_url": "https://www.themarker.com/law/2026-01-06/ty-article/0000019b-9229-d4d8-a19b-f37db84a0000",
-      "raw_snippet": "צמצום הלכת אפרופים אושר בקריאה שלישית. איך יפורשו חוזים — והאם הוודאות תגדל או דווקא הבלבול? - משפט - TheMarker",
-      "fetched_at": "2026-08-19",
+      "raw_snippet": "צמצום הלכת אפרופים אושר בקריאה שלישית",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/legislation-index.md"
       ],
-      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-19"
+      "verified_via": "title of the cited page, read in a browser; the date 2026-01-05 third reading is in the page URL date and the wikisource s.25(a) text",
+      "verified_at": "2026-11-03"
     },
     {
-      "claim_id": "severance-pay-section-14",
-      "claim": "Severance Pay Law 1963: one month's salary per year of employment; the Section 14 arrangement substitutes pension-fund deposits for severance and is near-universal for new employees.",
-      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
-      "raw_snippet": "הסדר זה מבוסס על סעיף 14 לחוק פיצויי פיטורים",
-      "fetched_at": "2026-06-28T23:59:00Z",
+      "claim_id": "hours-of-work-s3-45",
+      "claim": "Hours of Work and Rest Law s.3: work week not to exceed 45 hours [Saif 3, Section 3]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "שבוע עבודה לא יעלה על ארבעים וחמש שעות עבודה",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "extension-order-42h",
+      "claim": "2018 extension order shortens the work week to 42 hours from 01.04.2018",
+      "source_url": "https://www.kolzchut.org.il/he/צו_הרחבה_בדבר_קיצור_שבוע_העבודה_במשק_ל-42_שעות_שבועיות",
+      "raw_snippet": "שנחתם ביום 15.03.2018, קובע כי החל מה- 01.04.2018 שבוע העבודה במשק יקוצר ל-42 שעות שבועיות",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
         "references/legislation-index.md"
       ],
-      "verified_via": "kolzchut page text read through the site MediaWiki API in a browser; snippet replaced with verbatim page text (the previous value was a generated summary)",
-      "verified_at": "2026-08-15"
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page)",
+      "verified_at": "2026-11-03"
     },
     {
-      "claim_id": "privacy-amendment-13-enforcement-regime-a",
-      "claim": "Amendment 13 empowers the head of the Privacy Protection Authority, for the first time, to impose significant administrative financial penalties (עיצומים כספיים); the model scales with the type and number of violations, the number of data subjects in the database, whether the data is especially sensitive, and reductions for small or micro businesses by annual turnover. The skill deliberately does NOT quote an exact fine tariff.",
-      "source_url": "https://www.ebnlaw.co.il/he/%D7%90%D7%95%D7%A9%D7%A8-%D7%AA%D7%99%D7%A7%D7%95%D7%9F-%D7%9E%D7%A1-13-%D7%9C%D7%97%D7%95%D7%A7-%D7%94%D7%92%D7%A0%D7%AA-%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA-%D7%A2%D7%99%D7%A7%D7%A8%D7%99/",
-      "raw_snippet": "החוק מסמיך את ראש הרשות לראשונה להטיל עיצומים כספיים מנהליים בסכומים משמעותיים בנוגע להפרות הוראות החוק. מודל העיצומים מתבסס על קריטריונים שונים, הכוללים את (א) סוגי ההפרות, ובכלל זה הפרות פרטניות שאינן נוגעות לכלל המידע במאגר (כגון סירוב למתן זכות עיון); הפרות הנוגעות לכלל המידע שבמאגר (כגון אי מינוי ממונה אבטחת מידע או ממונה הגנת פרטיות לפי העניין); הפרות כלפי הרשות; או הפרות של זכויות מהותיות של נושאי מידע; (ב) כמות ההפרות; (ג) כמות נושאי המידע שבמאגר; (ד) האם המידע הוא בעל רגישות מיוחדת או שאינו; והאם קיימות הפחתות לעסקים קטנים או זעירים לפי מחזור שנתי.",
-      "fetched_at": "2026-08-09",
-      "verified_via": "raw HTML fetch (curl) of source page",
+      "claim_id": "freedom-occupation-s7-s8-1",
+      "claim": "Basic Law: Freedom of Occupation s.7 entrenchment and s.8 override, lapsing after four years [Saif 3, Saif 7, Saif 8, Section 8]",
+      "source_url": "https://he.wikisource.org/wiki/חוק-יסוד:_חופש_העיסוק",
+      "raw_snippet": "אין לשנות חוק־יסוד זה אלא בחוק־יסוד שנתקבל ברוב של חברי הכנסת",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "freedom-occupation-s7-s8-2",
+      "claim": "Basic Law: Freedom of Occupation s.7 entrenchment and s.8 override, lapsing after four years [Saif 3, Saif 7, Saif 8, Section 8]",
+      "source_url": "https://he.wikisource.org/wiki/חוק-יסוד:_חופש_העיסוק",
+      "raw_snippet": "הוראת חוק הפוגעת בחופש העיסוק תהיה תקפה אף כשאינה בהתאם לסעיף 4 , אם נכללה בחוק שנתקבל ברוב של חברי הכנסת ונאמר בו במפורש, שהוא תקף על אף האמור בחוק־יסוד זה; תוקפו של חוק כאמור יפקע בתום ארבע שנים",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "human-dignity-s8",
+      "claim": "Basic Law: Human Dignity and Liberty s.8 limitation clause, amended 1994 [Section 8, Saif 8, Saif 2, Saif 7]",
+      "source_url": "https://he.wikisource.org/wiki/חוק-יסוד:_כבוד_האדם_וחירותו",
+      "raw_snippet": "8. פגיעה בזכויות [תיקון: תשנ״ד] אין פוגעים בזכויות שלפי חוק־יסוד זה אלא בחוק ההולם את ערכיה של מדינת ישראל, שנועד לתכלית ראויה, ובמידה שאינה עולה על הנדרש",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "limitation-law-s5",
+      "claim": "Limitation Law s.5: 7 years non-land; 15 years land; 25 where registered after settlement [Section 5, Section 5(1), Section 5(2)]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההתיישנות",
+      "raw_snippet": "(1) בשאינו מקרקעין – שבע שנים; (2) במקרקעין – חמש עשרה שנה; ואם נרשמו בספרי האחוזה לאחר סידור זכות קנין לפי פקודת הקרקעות (סידור זכות הקנין) – עשרים וחמש שנה",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -45,12 +394,11 @@
       ]
     },
     {
-      "claim_id": "privacy-amendment-13-enforcement-regime-b",
-      "claim": "Amendment 13 adds a court power to award damages that do not depend on proven harm, up to NIS 10,000 / 10,000 ש\"ח, for example where the purpose-limitation principle was breached, a right of access was not honoured, or data was not deleted on request.",
-      "source_url": "https://www.ebnlaw.co.il/he/%D7%90%D7%95%D7%A9%D7%A8-%D7%AA%D7%99%D7%A7%D7%95%D7%9F-%D7%9E%D7%A1-13-%D7%9C%D7%97%D7%95%D7%A7-%D7%94%D7%92%D7%A0%D7%AA-%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA-%D7%A2%D7%99%D7%A7%D7%A8%D7%99/",
-      "raw_snippet": "• התיקון מקנה סמכות לבית המשפט לפסוק פיצויים עונשיים שאינם תלויים בנזק עד 10,000 ש\"ח, למשל במקרים בהם הופר עיקרון צמידות המטרה, לא מומשה זכות העיון במידע, או שלא נמחק מידע בעקבות בקשת אדם וכיו\"ב.",
-      "fetched_at": "2026-08-09",
-      "verified_via": "raw HTML fetch (curl) of source page",
+      "claim_id": "limitation-law-amendment-8",
+      "claim": "Amendment 8 (Swords of Iron): 7.10.2023 to 6.4.2024 not counted; s.15A [Section 15A, Amendment 8]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההתיישנות",
+      "raw_snippet": "15א. עיכוב של תקופת ההתיישנות – חרבות ברזל [תיקון: תשפ״ד] (א) בחישוב תקופת ההתיישנות של תביעה בשאינו מקרקעין, שערב תחילתו של חוק ההתיישנות (תיקון מס׳ 8 – חרבות ברזל), התשפ״ד–2024 (ביום 25.1.2024)",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -58,139 +406,1207 @@
       ]
     },
     {
-      "claim_id": "privacy-29a-statutory-damages",
-      "claim": "Protection of Privacy Law Section 29A allows the court to award statutory damages without proof of harm up to NIS 50,000, raised to up to NIS 100,000 (double) only where the privacy violation was committed with intent to harm (בכוונה לפגוע).",
-      "source_url": "https://www.aluk-firm.com/%D7%97%D7%95%D7%A7-%D7%94%D7%92%D7%A0%D7%AA-%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA-%D7%A4%D7%99%D7%A6%D7%95%D7%99-%D7%9C%D7%9C%D7%90-%D7%94%D7%95%D7%9B%D7%97%D7%AA-%D7%A0%D7%96%D7%A7/",
-      "raw_snippet": "פיצוי ללא הוכחת נזק סעיף 29א לחוק הגנת הפרטיות מאפשר לבית המשפט לפסוק פיצויים בסך של עד 50,000 ש\"ח, ללא הוכחת נזק, בגין כל הפרה של הוראות החוק. זוהי הוראה ייחודית המקלה משמעותית על התובע, שכן היא מייתרת את הצורך להוכיח נזק ממשי כתוצאה מהפגיעה בפרטיות. תכלית הפיצוי ללא הוכחת נזק מטרת הפיצוי הסטטוטורי היא כפולה: ראשית, להרתיע מפני פגיעות עתידיות בפרטיות. שנית, לפצות את הנפגע על עצם הפגיעה בזכותו לפרטיות, גם אם לא נגרם לו נזק ממוני מוכח.",
-      "fetched_at": "2026-08-18",
+      "claim_id": "land-law-s159b",
+      "claim": "Land Law s.159(b): Limitation Law does not apply to claims to realize a right in settled land [Section 159, Section 159(b), סעיף 159, s.159(b)]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "חוק ההתיישנות, תשי״ח–1958 , לא יחול על תביעות לקיום זכות במקרקעין מוסדרים",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/legislation-index.md"
-      ],
-      "verified_via": "cited page fetched and confirmed to contain \"50,000\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
+      ]
     },
     {
-      "claim_id": "mahash-subordination-enacted-2026",
-      "claim": "The Mahash (Police Internal Investigations Department) subordination bill, transferring control of the unit that investigates police officers to the Justice Minister, passed its final second-and-third Knesset reading on 2026-06-11 (43-39) and is enacted law, not a pending bill. The AG-split bill passed first reading only; the ministerial-legal-advisers bill passed preliminary reading only; both remain mid-process.",
-      "source_url": "https://www.haaretz.co.il/news/elections/2026-06-11/ty-article/.premium/0000019e-81cf-d1b5-afff-91ffd2320000",
-      "raw_snippet": "הכנסת אישרה סופית את החוק להכפפת מח\"ש לשר המשפטים - בחירות 2026 - הארץ",
-      "fetched_at": "2026-08-18",
+      "claim_id": "land-law-s5-s125-1",
+      "claim": "Land Law s.5 easement; s.125 conclusive vs prima facie registration [Saif 5, Saif 125, Section 125, s.5, s.125]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "זיקת הנאה היא שעבוד מקרקעין להנאה שאין עמה זכות להחזיק בהם",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/legislation-index.md"
-      ],
-      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-18"
+        "references/legislation-index.md",
+        "scripts/legal_term_lookup.py"
+      ]
     },
     {
-      "claim_id": "amendment-13-first-enforcement",
-      "claim": "An early Amendment-13 enforcement action was a NIS 75,000 administrative fine on an individual (a National Insurance Institute employee who accessed the database 15 times for personal use) for unauthorized retrieval of data from National Insurance Institute (Bituach Leumi) databases (NOT a fine on HOT).",
-      "source_url": "https://www.law.co.il/news/2025/08/24/privacy-breach-fine-imposed-on-national-security-employee/",
-      "raw_snippet": "הרשות להגנת הפרטיות הטילה קנס חריג בסך של 75,000 ש\"ח על עובדת הביטוח הלאומי שהשתמשה 15 פעמים במאגר הביטוח הלאומי; NIS 75,000 75,000 ש\"ח",
-      "fetched_at": "2026-06-28T23:59:00Z",
+      "claim_id": "land-law-s5-s125-2",
+      "claim": "Land Law s.5 easement; s.125 conclusive vs prima facie registration [Saif 5, Saif 125, Section 125, s.5, s.125]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "רישום בפנקסים לגבי מקרקעין מוסדרים יהווה ראיה חותכת לתכנו",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "land-law-s5-s125-3",
+      "claim": "Land Law s.5 easement; s.125 conclusive vs prima facie registration [Saif 5, Saif 125, Section 125, s.5, s.125]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "רישום בפנקסים לגבי מקרקעין לא־מוסדרים יהווה ראיה לכאורה לתכנו",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "severance-s12-1",
+      "claim": "Severance Pay Law s.12(a)-(b): one month for salaried, two weeks for wage employees; minister may raise by regulation [Section 12, s.12(a), s.12(b), סעיף 12, Saif 12]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_פיצויי_פיטורים",
+      "raw_snippet": "שכר חודש אחד לכל שנת עבודה בעובד במשכורת אצל מעסיק, או באותו מקום עבודה, ושכר שבועיים לכל שנת עבודה בעובד בשכר כאמור",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "severance-s12-2",
+      "claim": "Severance Pay Law s.12(a)-(b): one month for salaried, two weeks for wage employees; minister may raise by regulation [Section 12, s.12(a), s.12(b), סעיף 12, Saif 12]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_פיצויי_פיטורים",
+      "raw_snippet": "שר העבודה רשאי, לאחר התייעצות בשר האוצר ובאישור ועדת העבודה של הכנסת, להגדיל בתקנות את שיעור פיצויי הפיטורים לעובד בשכר",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "severance-s14",
+      "claim": "Section 14: pension payments replace severance only where provided [Section 14, סעיף 14, Saif 14]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_פיצויי_פיטורים",
+      "raw_snippet": "14. פיצויים ותגמולים [תיקון: תשע״ד־2] תשלום לקופת תגמולים, לקרן פנסיה או לקרן כיוצא באלה, לא יבוא במקום פיצויי פיטורים אלא אם נקבע כך",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "courts-law-small-claims-1",
+      "claim": "Courts Law s.60 small claims: individual plaintiff, 30,000 adjusted, 39,900 in 2026; s.60(b) more than five claims; s.63 lawyer by leave; s.64 appeal by leave [Section 60, s.60, Section 59, Sections 59-65, סעיף 60, Section 64, סעיף 64]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בתי_המשפט",
+      "raw_snippet": "בית משפט לתביעות קטנות ידון בתביעה אזרחית שהגיש יחיד – (1) לתשלום סכום שאינו עולה על 30,000 שקלים חדשים (מתואם לאוגוסט 2008;בשנת 2026, 39,900 ש״ח)",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "courts-law-small-claims-2",
+      "claim": "Courts Law s.60 small claims: individual plaintiff, 30,000 adjusted, 39,900 in 2026; s.60(b) more than five claims; s.63 lawyer by leave; s.64 appeal by leave [Section 60, s.60, Section 59, Sections 59-65, סעיף 60, Section 64, סעיף 64]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בתי_המשפט",
+      "raw_snippet": "אם ראה שהתביעה הוגשה בידי תובע שכבר הגיש באותה שנה באותו בית משפט יותר מחמש תביעות",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "courts-law-small-claims-3",
+      "claim": "Courts Law s.60 small claims: individual plaintiff, 30,000 adjusted, 39,900 in 2026; s.60(b) more than five claims; s.63 lawyer by leave; s.64 appeal by leave [Section 60, s.60, Section 59, Sections 59-65, סעיף 60, Section 64, סעיף 64]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בתי_המשפט",
+      "raw_snippet": "64. ערעור [ת/7] פסק דין של בית משפט לתביעות קטנות ניתן לערעור לפני בית משפט מחוזי אם ניתנה רשות לכך מאת שופט של בית המשפט המחוזי",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "courts-law-s63",
+      "claim": "Courts Law s.63(a): lawyer representation in small claims only with leave [Section 63, Section 63(a), s.63, סעיף 63]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בתי_המשפט",
+      "raw_snippet": "ייצוג בעל דין בבית משפט לתביעות קטנות על ידי עורך דין יהיה רק ברשות בית המשפט",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "courts-law-appeals-s41-s52-1",
+      "claim": "Courts Law s.41(a)-(b) and s.52(a)-(b) appeal routes [Section 41, Section 41(a), Section 41(b), Section 52, Section 52(a), Section 52(b), Section 40]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בתי_המשפט",
+      "raw_snippet": "41. ערעור [ב/19] [תיקון: תשס״ח־9, תש״ע־2] (א) פסק דין של בית משפט מחוזי בערכאה ראשונה ניתן לערעור לפני בית המשפט העליון. (ב) החלטה אחרת של בית משפט מחוזי בענין אזרחי, ופסק דין של בית משפט מחוזי בערעור, ניתנים לערעור לפני בית המשפט העליון, אם ניתנה רשות",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "references/court-procedure-map.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "courts-law-appeals-s41-s52-2",
+      "claim": "Courts Law s.41(a)-(b) and s.52(a)-(b) appeal routes [Section 41, Section 41(a), Section 41(b), Section 52, Section 52(a), Section 52(b), Section 40]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בתי_המשפט",
+      "raw_snippet": "52. ערעור [ב/29] [תיקון: תשס״ח־9, תש״ע־2] (א) פסק דין של בית משפט שלום ניתן לערעור לפני בית משפט מחוזי. (ב) החלטה אחרת של בית משפט שלום בענין אזרחי ניתנת לערעור לפני בית משפט מחוזי, אם ניתנה רשות",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "references/court-procedure-map.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "courts-law-s51-ceiling",
+      "claim": "Magistrate civil ceiling 2,500,000 NIS (s.51(a)(2)) [Section 51, Section 51(a)(2), s.51]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בתי_המשפט",
+      "raw_snippet": "כשסכום התביעה או שווי הנושא אינו עולה על 2,500,000 שקלים חדשים ביום הגשת התובענה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "kz-small-claims-1",
+      "claim": "Small claims: 39,900 as of January 2026; digital filing; appeal leave within 30 days for proceedings from 11.04.2025 (15 before)",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה",
+      "raw_snippet": "עד סכום של 39,900 ₪ (נכון לינואר 2026)",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page)",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "kz-small-claims-2",
+      "claim": "Small claims: 39,900 as of January 2026; digital filing; appeal leave within 30 days for proceedings from 11.04.2025 (15 before)",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה",
+      "raw_snippet": "לגבי הליכים שנפתחו לפני תאריך ה-11.04.2025 יש להגיש את בקשת הערעור בתוך 15 ימים. לגבי הליכים שנפתחו החל מתאריך ה-11.04.2025 יש להגיש את בקשת הערעור בתוך 30 ימים",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page)",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "kz-small-claims-3",
+      "claim": "Small claims: 39,900 as of January 2026; digital filing; appeal leave within 30 days for proceedings from 11.04.2025 (15 before)",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה",
+      "raw_snippet": "אפשר להגיש את התביעה באופן דיגטלי דרך אתר הרשות השופטת",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page)",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "family-courts-s2",
+      "claim": "Family Court = Magistrate Court designated by order (s.2(a)); law of 1995",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בית_המשפט_לעניני_משפחה",
+      "raw_snippet": "רשאי להסמיך בצו בית משפט שלום מסוים לשבת כבית משפט לעניני משפחה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/court-procedure-map.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "labor-courts-law-1969-nii",
+      "claim": "Labor Courts Law 1969; jurisdiction includes National Insurance matters",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בית_הדין_לעבודה",
+      "raw_snippet": "בכל ענין שמוענקת לבתי הדין האזוריים סמכות בו על פי התיקונים לחוק הביטוח הלאומי",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "legal-aid-law-1972",
+      "claim": "Legal Aid Law 1972",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הסיוע_המשפטי",
+      "raw_snippet": "חוק הסיוע המשפטי, תשל״ב–1972",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "execution-law-1967",
+      "claim": "Execution Law 1967",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "raw_snippet": "חוק ההוצאה לפועל, תשכ״ז–1967",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "bar-law-s20",
+      "claim": "Bar Association Law s.20 reserves the profession's acts",
+      "source_url": "https://he.wikisource.org/wiki/חוק_לשכת_עורכי_הדין",
+      "raw_snippet": "20. ייחוד פעולות המקצוע [תיקון: תשע״ז־2] הפעולות המנויות להלן, לא יעשה אותן דרך עיסוק, או בתמורה אף שלא דרך עיסוק, אלא עורך דין",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/domain-checklist.md"
       ]
     },
     {
       "claim_id": "basic-law-judiciary-15-20",
-      "claim": "Basic Law: The Judiciary (1984): Section 15 establishes the Supreme Court, which also sits as the High Court of Justice (Bagatz); Section 20 provides that a rule laid down by the Supreme Court binds every court except the Supreme Court itself.",
-      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7-%D7%99%D7%A1%D7%95%D7%93:_%D7%94%D7%A9%D7%A4%D7%99%D7%98%D7%94",
-      "raw_snippet": "20. הלכה פסוקה (א) הלכה שנפסקה בבית משפט תנחה בית משפט של דרגה נמוכה ממנו. (ב) הלכה שנפסקה בבית המשפט העליון מחייבת כל בית משפט, זולת בית המשפט העליון. 21. רשמים לבית משפט יכול שיהיה רשם, בין שופט ובין שאינו שופט. פרק ד׳: הוראות שונות 22. יציבות החוק אין בכוחן של תקנות שעת חירום לשנות חוק זה, להפקיע זמנית את תקפו או לקבוע בו תנאים. 23.",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "references/legislation-index.md"
-      ],
-      "verified_via": "source fetched and the passage copied verbatim from the cited page",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "small-claims-courts-law-1984",
-      "claim": "Small Claims Court (תביעות קטנות) is established under the Courts Law [Consolidated Version] 1984, Sections 59-62; a party may be represented by a lawyer only with the court's permission and for special recorded reasons (Section 63(a)). The monetary ceiling is index-linked and was 39,900 NIS as of January 2026.",
-      "source_url": "https://www.nevo.co.il/law_html/law00/74849.htm",
-      "raw_snippet": "ייצוג [ת/6] 63. (א) ייצוג בעל דין בבית משפט לתביעות קטנות על ידי עורך דין יהיה רק ברשות בית המשפט ומטעמים מיוחדים שיירשמו; בעל דין רשאי, ברשות בית המשפט, להיות מיוצג על ידי ארגון שקבע לענין זה שר המשפטים, ובמקרה זה ירשה בית המשפט לבעל הדין שכנגד להיות מיוצג כפי שיורה.",
-      "fetched_at": "2026-08-18",
+      "claim": "Basic Law: The Judiciary s.15 HCJ jurisdiction; s.20 binding precedent [Section 20, s.20, סעיף 20, Saif 20, Section 15, Saif 15]",
+      "source_url": "https://he.wikisource.org/wiki/חוק-יסוד:_השפיטה",
+      "raw_snippet": "20. הלכה פסוקה (א) הלכה שנפסקה בבית משפט תנחה בית משפט של דרגה נמוכה ממנו. (ב) הלכה שנפסקה בבית המשפט העליון מחייבת כל בית משפט, זולת בית המשפט העליון",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
-        "references/legislation-index.md"
-      ],
-      "verified_via": "source fetched and the passage copied verbatim from the cited page",
-      "verified_at": "2026-08-18"
+        "references/legislation-index.md",
+        "references/court-procedure-map.md",
+        "scripts/legal_term_lookup.py"
+      ]
     },
     {
-      "claim_id": "limitation-law-1958",
-      "claim": "Limitation Law 1958, Section 5: general civil limitation period is 7 years for non-land claims (5(1)); 25 years for claims in registered land and 15 years for other land (5(2)).",
-      "source_url": "https://www.nevo.co.il/law_html/law00/71809.htm",
-      "raw_snippet": "פרק שני: תקופת התיישנות הזמן להתיישנות 5. התקופה שבה מתיישנת תביעה שלא הוגשה עליה תובענה (להלן – תקופת ההתיישנות) היא – (1) בשאינו מקרקעין – שבע שנים; (2) במקרקעין – חמש עשרה שנה; ואם נרשמו בספרי האחוזה לאחר סידור זכות קנין לפי פקודת הקרקעות (סידור זכות הקנין) – עשרים וחמש שנה. תחילת ההתיישנות 6. תקופת ההתיישנות מתחילה ביום שבו נולדה עילת התובענה. השעיית מרוץ תקופת ההתיישנות עקב התנהגות פסולה של הנתבע 7.",
-      "fetched_at": "2026-08-18",
+      "claim_id": "basic-law-judiciary-15-hcj",
+      "claim": "s.15: HCJ relief for the sake of justice where no other court has jurisdiction",
+      "source_url": "https://he.wikisource.org/wiki/חוק-יסוד:_השפיטה",
+      "raw_snippet": "בשבתו כאמור ידון בענינים אשר הוא רואה צורך לתת בהם סעד למען הצדק ואשר אינם בסמכותו של בית משפט או של בית דין אחר",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/legislation-index.md"
-      ],
-      "verified_via": "cited page fetched; 18 of 28 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"שבה\"",
-      "verified_at": "2026-08-18"
+        "references/court-procedure-map.md"
+      ]
     },
     {
-      "claim_id": "civil-procedure-regs-2018",
-      "claim": "Civil Procedure Regulations 5779-2018 (תקנות סדר הדין האזרחי) entered into force 1 January 2021, replacing the 1984 regulations; their opening principles are procedural good faith and proportionality (no disproportionate or abusive use of process).",
+      "claim_id": "civil-procedure-regs-2018-1",
+      "claim": "Civil Procedure Regulations 2018 in force 1 January 2021; good faith and procedural fairness",
       "source_url": "https://www.nevo.co.il/law_html/law00/157751.htm",
-      "raw_snippet": "תקנות סדר הדין האזרחי, תשע\"ט-2018",
-      "fetched_at": "2026-08-19",
+      "raw_snippet": "תחילתן של תקנות אלה ביום י\"ז בטבת התשפ\"א (1 בינואר 2021)",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "civil-procedure-regs-2018-2",
+      "claim": "Civil Procedure Regulations 2018 in force 1 January 2021; good faith and procedural fairness",
+      "source_url": "https://www.nevo.co.il/law_html/law00/157751.htm",
+      "raw_snippet": "לנהוג בתום לב ובהגינות דיונית",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "privacy-29a-1",
+      "claim": "Privacy Law s.29A: up to 50,000 without proof of harm; double where intent to harm proven; index-linked from May 2007 [Section 29A, s.29A, סעיף 29א; double = NIS 100,000]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_הפרטיות",
+      "raw_snippet": "רשאי בית המשפט לחייב את הנתבע לשלם לנפגע פיצוי שלא יעלה על 50,000 שקלים חדשים, בלא הוכחת נזק. (2) במשפט כאמור בפסקה (1) שבו הוכח כי הפגיעה בפרטיות נעשתה בכוונה לפגוע, רשאי בית המשפט לחייב את הנתבע לשלם לנפגע פיצוי שלא יעלה על כפל הסכום",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "privacy-29a-2",
+      "claim": "Privacy Law s.29A: up to 50,000 without proof of harm; double where intent to harm proven; index-linked from May 2007 [Section 29A, s.29A, סעיף 29א; double = NIS 100,000]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_הפרטיות",
+      "raw_snippet": "”המדד הבסיסי“ – מדד חודש מאי 2007",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "privacy-15a-exemplary",
+      "claim": "Amendment 13 s.15A exemplary damages up to 10,000 [Section 15A, s.15A, סעיף 15א]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_הפרטיות",
+      "raw_snippet": "15א. פיצויים לדוגמה [תיקון: תשפ״ד] (א) הפר בעל שליטה במאגר מידע או מחזיק במאגר מידע הוראה מההוראות המפורטות להלן, רשאי בית המשפט לפסוק, בשל אותה הפרה, פיצויים שאינם תלויים בנזק (בסעיף זה – פיצויים לדוגמה), בסכום שלא יעלה על 10,000 שקלים חדשים",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "privacy-amendment-13-enforcement-regime",
+      "claim": "Amendment 13 empowers the PPA head to impose significant administrative fines",
+      "source_url": "https://www.ebnlaw.co.il/he/%D7%90%D7%95%D7%A9%D7%A8-%D7%AA%D7%99%D7%A7%D7%95%D7%9F-%D7%9E%D7%A1-13-%D7%9C%D7%97%D7%95%D7%A7-%D7%94%D7%92%D7%A0%D7%AA-%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA-%D7%A2%D7%99%D7%A7%D7%A8%D7%99/",
+      "raw_snippet": "החוק מסמיך את ראש הרשות לראשונה להטיל עיצומים כספיים מנהליים",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "bar-ai-opinion-2026-1",
+      "claim": "Updated Bar ethics opinion את/60/24 dated 18/09/26: verify AI outputs, human oversight, technology does not replace judgment",
+      "source_url": "https://www.israelbar.biz/orchey_din_tochen/etica_mikzoeit/hahlatot_vhvot_dat/ai_based_tools_opinion_60-24.aspx",
+      "raw_snippet": "גילוי דעת עדכני את/60/24 – שימוש בבינה מלאכותית (AI) בעבודת עורכי הדין",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bar-ai-opinion-2026-2",
+      "claim": "Updated Bar ethics opinion את/60/24 dated 18/09/26: verify AI outputs, human oversight, technology does not replace judgment",
+      "source_url": "https://www.israelbar.biz/orchey_din_tochen/etica_mikzoeit/hahlatot_vhvot_dat/ai_based_tools_opinion_60-24.aspx",
+      "raw_snippet": "תאריך כתבה 18/09/26",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bar-ai-opinion-2026-3",
+      "claim": "Updated Bar ethics opinion את/60/24 dated 18/09/26: verify AI outputs, human oversight, technology does not replace judgment",
+      "source_url": "https://www.israelbar.biz/orchey_din_tochen/etica_mikzoeit/hahlatot_vhvot_dat/ai_based_tools_opinion_60-24.aspx",
+      "raw_snippet": "בדיקת אמינותם ודיוקם של תוצרים והצורך בקיום בקרה אנושית נאותה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bar-ai-opinion-2026-4",
+      "claim": "Updated Bar ethics opinion את/60/24 dated 18/09/26: verify AI outputs, human oversight, technology does not replace judgment",
+      "source_url": "https://www.israelbar.biz/orchey_din_tochen/etica_mikzoeit/hahlatot_vhvot_dat/ai_based_tools_opinion_60-24.aspx",
+      "raw_snippet": "הטכנולוגיה אינה מחליפה את שיקול דעתו המקצועי של עורך הדין ואת אחריותו האישית לתוצר עבודתו",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "hcj-ai-invented-rulings",
+      "claim": "HCJ dismissed a petition relying on AI-invented rulings",
+      "source_url": "https://www.ynet.co.il/economy/article/rkigkaeskg",
+      "raw_snippet": "עמותה שביקשה להגן על כלבים משוטטים בעוטף עזה הסתמכה בטיעוניה על בינה מלאכותית שהמציאה פסקי דין שלא היו ולא נבראו. השופט סולברג דחה את העתירה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reasonableness-2024-votes",
+      "claim": "2024-01-01: eight justices voted to strike down the reasonableness amendment (IRAC); IRAC also gives 13 of 15 on the Basic-Laws authority point, while Lawfare reports 12, so the skill says \"reported as 12 of 15\"",
+      "source_url": "https://www.irac.org/reasonableness_high-court-decision-update",
+      "raw_snippet": "On the principal issue, 13 out of the 15 Supreme Court justices ruled that the Court has the power to strike down Basic Laws in exceptional and extreme circumstances. On the specific issue of the reasonableness doctrine, eight justices voted",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "jsc-law-trigger-and-pending-1",
+      "claim": "JSC Basic Law amendment passed 67-1 in March 2025, effective when next Knesset begins its term; case returned to 11-justice panel for ruling (July 2026)",
+      "source_url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-903801",
+      "raw_snippet": "The Basic Law amendment passed 67-1 in March 2025 and is scheduled to take effect when the next Knesset begins its term",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "jsc-law-trigger-and-pending-2",
+      "claim": "JSC Basic Law amendment passed 67-1 in March 2025, effective when next Knesset begins its term; case returned to 11-justice panel for ruling (July 2026)",
+      "source_url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-903801",
+      "raw_snippet": "The case will now return to the 11-justice panel for a ruling",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "hcj-convene-committee-2026-05-31",
+      "claim": "HCJ unanimously ordered the Justice Minister to convene the Judicial Selection Committee",
+      "source_url": "https://www.timesofisrael.com/high-court-orders-justice-minister-to-convene-judicial-selection-committee/",
+      "raw_snippet": "the High Court of Justice ruled unanimously that he is obligated to convene the Judicial Selection Committee as soon as possible",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/legislation-index.md"
       ],
-      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-19"
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page); article dated 2026-05-31",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "mahash-enacted-2026-06-11",
+      "claim": "Mahash law passed final reading 43-39 (Haaretz, 2026-06-11)",
+      "source_url": "https://www.haaretz.co.il/news/elections/2026-06-11/ty-article/.premium/0000019e-81cf-d1b5-afff-91ffd2320000",
+      "raw_snippet": "הכנסת אישרה סופית את החוק להכפפת מח\"ש לשר המשפטים 43 חברי כנסת הצביעו בעד ו-39 התנגדו",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "mahash-interim-order-2026-09-04-1",
+      "claim": "HCJ interim order 2-1 (Sept 4, 2026) freezing key provisions; hearing December 28",
+      "source_url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-907582",
+      "raw_snippet": "SEPTEMBER 4, 2026",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "mahash-interim-order-2026-09-04-2",
+      "claim": "HCJ interim order 2-1 (Sept 4, 2026) freezing key provisions; hearing December 28",
+      "source_url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-907582",
+      "raw_snippet": "issued the interim order in a 2-1 decision",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "mahash-interim-order-2026-09-04-3",
+      "claim": "HCJ interim order 2-1 (Sept 4, 2026) freezing key provisions; hearing December 28",
+      "source_url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-907582",
+      "raw_snippet": "a hearing on three petitions seeking its cancellation is scheduled for December 28",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "ag-split-first-reading",
+      "claim": "AG split bill passed first reading 65-47",
+      "source_url": "https://www.ynet.co.il/news/article/hjmply3efe",
+      "raw_snippet": "מליאת הכנסת אישרה הלילה (בין שני לשלישי) בקריאה ראשונה את הצעת החוק לפיצול תפקיד היועץ המשפטי לממשלה . 65 חברי כנסת תמכו בהצעה, אל מול 47 מתנגדים",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "legal-advisers-preliminary-1",
+      "claim": "Ministerial legal advisers bill passed preliminary reading 58-50",
+      "source_url": "https://www.calcalist.co.il/local_news/article/sy0qjos4wg",
+      "raw_snippet": "הכנסת אישרה בטרומית: היועצים המשפטיים במשרדי הממשלה לא יהיו כפופים ליועמ״שית",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page); article dated 2026-01-07",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "legal-advisers-preliminary-2",
+      "claim": "Ministerial legal advisers bill passed preliminary reading 58-50",
+      "source_url": "https://www.calcalist.co.il/local_news/article/sy0qjos4wg",
+      "raw_snippet": "הצביעו 58 חברי כנסת, מול 50 מתנגדים",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page); article dated 2026-01-07",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "continuity-rule",
+      "claim": "Continuity applies only to bills that passed first reading in the previous Knesset",
+      "source_url": "https://www.idi.org.il/articles/65448",
+      "raw_snippet": "עברה בקריאה ראשונה בכנסת הקודמת",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "csc-ruling-2026-02-03",
+      "claim": "HCJ: government not required to appoint the Civil Service Commissioner via competitive process (decided Tuesday, reported Feb 4 2026) [reported 2026-02-04]",
+      "source_url": "https://www.jpost.com/israel-news/article-885518",
+      "raw_snippet": "The High Court of Justice decided on Tuesday that the government is not required to appoint a civil service commissioner (CSC) via a competitive process",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "supremedecisions-1997",
+      "claim": "Free Supreme Court search covers rulings since 1997 and reporter volumes from 2006",
+      "source_url": "https://supremedecisions.court.gov.il/Home/Index",
+      "raw_snippet": "באתר זה מופיעים פסקי דין של בית המשפט העליון והחלטותיו שניתנו החל משנת 1997 וכן פסקי דין שפורסמו בכרכי הפד\"י משנת 2006 ואילך (כרך פד\"י סא ואילך)",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legal-databases-guide.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page)",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "apropim-citation",
+      "claim": "Apropim citation: ע\"א 4628/93 ... פ\"ד מט(2), 265",
+      "source_url": "https://he.wikipedia.org/wiki/פסק_דין_אפרופים",
+      "raw_snippet": "ע\"א 4628/93 מדינת ישראל נ' אפרופים שיכון וייזום (1991) בע\"מ פ\"ד מט(2), 265",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legal-databases-guide.md"
+      ]
+    },
+    {
+      "claim_id": "torture-case-respondent",
+      "claim": "HCJ 5100/94 respondent is the Government of Israel and the GSS",
+      "source_url": "https://he.wikipedia.org/wiki/בג\"ץ_העינויים",
+      "raw_snippet": "בג\"ץ 5100/94 הוועד הציבורי נגד עינויים בישראל נ' ממשלת ישראל ושירות הביטחון הכללי",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legal-databases-guide.md"
+      ]
     },
     {
       "claim_id": "vat-rate-18",
-      "claim": "Israeli VAT is 18% of the purchase or service price from 01.01.2025; until 31.12.2024 it was 17%.",
+      "claim": "VAT is 18% from 01.01.2025 [raised from 17%]",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1_%D7%A2%D7%A8%D7%9A_%D7%9E%D7%95%D7%A1%D7%A3_(%D7%9E%D7%A2%22%D7%9E)",
-      "raw_snippet": "סכום המע״מ מחושב בשיעור קבוע ממחיר העסקה או הסחורה, והחל מיום 01.01.2025 הוא עומד על 18% ממחיר הרכישה או השירות. עד 31.12.2024 היה שיעור המע\"מ 17%",
-      "fetched_at": "2026-08-11",
+      "raw_snippet": "סכום המע״מ מחושב בשיעור קבוע ממחיר העסקה או הסחורה, והחל מיום 01.01.2025 הוא עומד על 18% מ",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
         "references/legislation-index.md"
       ],
       "verified_via": "browser-playwright",
-      "verified_at": "2026-08-11"
+      "verified_at": "2026-11-03"
     },
     {
-      "claim_id": "legal-database-urls",
-      "claim": "Israeli legal-research database and authority URLs cited by the skill and its domain-checklist. Paid (no public API): nevo.co.il, takdin.co.il, psakdin.co.il. Free / official: the Knesset National Legislation Database, kolzchut.org.il, btl.gov.il, the courts/judicial-authority portals (court.gov.il), the Ministry of Justice, the Israel Bar Association, and the US Library of Congress Global Legal Monitor (Israel) for tracking. All Israeli sites are bot-blocked to curl but render for humans. Covers these references: https://main.knesset.gov.il/Activity/Legislation/ https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/default.aspx https://supreme.court.gov.il/ https://www.court.gov.il https://www.nevo.co.il https://www.nevo.co.il/law_html/law00/157751.htm https://www.takdin.co.il https://www.psakdin.co.il https://www.kolzchut.org.il https://www.btl.gov.il https://www.gov.il/he/departments/the_judicial_authority/govil-landing-page https://www.gov.il/he/departments/ministry_of_justice https://www.gov.il/he/pages/fees_16 https://www.israelbar.org.il https://www.loc.gov/collections/global-legal-monitor/?q=Israel",
-      "source_url": "https://main.knesset.gov.il/activity/legislation/laws/pages/lawlaws.aspx",
-      "raw_snippet": "בית המשפט העליון של ישראל נראה כי JavaScript אינו זמין בדפדפן שלך.",
-      "fetched_at": "2026-08-18",
+      "claim_id": "kz-home-moj-support",
+      "claim": "Kol Zchut operates with the support of the Ministry of Justice and the National Digital Agency",
+      "source_url": "https://www.kolzchut.org.il",
+      "raw_snippet": "בסיוע משרד המשפטים ומערך הדיגיטל הלאומי",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legal-databases-guide.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page)",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "judicial-authority-gov-il",
+      "claim": "court.gov.il redirects to the Judicial Authority page on gov.il",
+      "source_url": "https://www.court.gov.il",
+      "raw_snippet": "בית המשפט העליון - פסקי דין והחלטות בתי המשפט - פסקי דין והחלטות",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legal-databases-guide.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real article text, not a bot-challenge page); final URL after redirect https://www.gov.il/he/Departments/the_judicial_authority",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "bar-site-moved",
+      "claim": "israelbar.org.il server-redirects to israelbar.biz (the Bar's own site)",
+      "source_url": "https://www.israelbar.org.il",
+      "raw_snippet": "לשכת עורכי הדין - דף בית",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl -sI shows HTTP 302 location https://www.israelbar.biz/home/; page title read in a browser",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "knesset-national-legislation-db",
+      "claim": "The Knesset's National Legislation Database is entered at https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/lawlaws.aspx?t=lawlaws&st=lawlaws (the gov.il service page's start button links there); it lists laws in force since the Mandate with amendments and committee protocols",
+      "source_url": "https://www.gov.il/he/service/the_laws_of_the_state_of_israel_in_the_national_legislation_database",
+      "raw_snippet": "ניתן לפנות ישירות למערכת המאגר בדואר אלקטרוני legislation@knesset.gov.il",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/legal-databases-guide.md",
         "references/domain-checklist.md"
-      ],
-      "verified_via": "reference-coverage entry; snippet quoted from one of the covered sources",
-      "verified_at": "2026-08-18"
+      ]
     },
     {
-      "claim_id": "internal-formatting-and-codepaths",
-      "claim": "Internal formatting artifacts and code paths, NOT external claims: bold-wrapped dates render as **2024-01-01** / **2025-03-27** / **2025-08-14** / **2026-06-11** etc. (the *NNNN the extractor sees is the second markdown asterisk plus a year, not a phone number); the retired Supreme Court deep path /sites/he/Pages/home.aspx is mentioned only to tell users it was retired.",
-      "source_url": "https://www.unicode.org/reports/tr9/",
-      "raw_snippet": "UAX #9: Unicode Bidirectional Algorithm",
-      "fetched_at": "2026-08-18",
+      "claim_id": "knesset-national-legislation-db-link",
+      "claim": "Start link of the gov.il service page points to the Knesset lawlaws page",
+      "source_url": "https://www.gov.il/he/service/the_laws_of_the_state_of_israel_in_the_national_legislation_database",
+      "raw_snippet": "http://main.knesset.gov.il/Activity/Legislation/Laws/Pages/lawlaws.aspx?t=lawlaws&st=lawlaws",
+      "fetched_at": "2026-11-03T17:30:00Z",
       "appears_in": [
         "SKILL.md",
-        "references/legislation-index.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "btl-home",
+      "claim": "Bituach Leumi official site https://www.btl.gov.il",
+      "source_url": "https://www.btl.gov.il",
+      "raw_snippet": "לוגו, הביטוח הלאומי, לצידך ברגעים החשובים של החיים",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legal-databases-guide.md"
+      ]
+    },
+    {
+      "claim_id": "psakdin-home",
+      "claim": "Psakdin case-law database (paid subscription) https://www.psakdin.co.il",
+      "source_url": "https://www.psakdin.co.il",
+      "raw_snippet": "רכישת מנוי למאגר הפסיקה",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legal-databases-guide.md"
+      ]
+    },
+    {
+      "claim_id": "takdin-home",
+      "claim": "Takdin legal database https://www.takdin.co.il",
+      "source_url": "https://www.takdin.co.il",
+      "raw_snippet": "תקדין - מאגר פסקי הדין המוביל בישראל",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legal-databases-guide.md"
+      ]
+    },
+    {
+      "claim_id": "judicial-authority-portal",
+      "claim": "Judicial Authority portal on gov.il https://www.gov.il/he/departments/the_judicial_authority links to the Supreme Court rulings search",
+      "source_url": "https://www.gov.il/he/departments/the_judicial_authority",
+      "raw_snippet": "בית המשפט העליון - פסקי דין והחלטות",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legal-databases-guide.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "court-fees-page",
+      "claim": "Court fees notice https://www.gov.il/he/pages/fees_16",
+      "source_url": "https://www.gov.il/he/pages/fees_16",
+      "raw_snippet": "הודעת בתי המשפט - אגרות",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "references/legal-databases-guide.md",
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "supreme-court-site",
+      "claim": "Supreme Court site https://supreme.court.gov.il/ (redirects to its home page, branded as the Judicial Authority site)",
+      "source_url": "https://supreme.court.gov.il/",
+      "raw_snippet": "בית המשפט העליון אתר הרשות השופטת",
+      "fetched_at": "2026-11-03T17:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
         "references/legal-databases-guide.md"
       ],
-      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-18"
+      "verified_via": "browser (Playwright render of the live page, real page text, not a bot-challenge page)",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "cpr-reg7-venue",
+      "claim": "Civil Procedure Regulations 2018 reg. 7(a) local venue: defendant's residence/business or place of the act; land where the land is; agreed venue governs",
+      "source_url": "https://www.nevo.co.il/law_html/law00/157751.htm",
+      "raw_snippet": "תובענה תוגש לבית המשפט המצוי במחוז שיפוט של מקום מגוריו או מקום עסקו של הנתבע או במקום המעשה או המחדל שבשלו תובעים ואם היתה התובענה במקרקעין תוגש לבית המשפט שבמחוז שיפוטו הם מצויים",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "cpr-reg15b-expert",
+      "claim": "reg. 15(b): a party may attach a non-medical expert opinion to its pleading",
+      "source_url": "https://www.nevo.co.il/law_html/law00/157751.htm",
+      "raw_snippet": "רשאי בעל דין לצרף לכתב טענות חוות דעת של מומחה שאינו בעניין של רפואה",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "admin-courts-s5",
+      "claim": "Administrative Courts Law s.5: petitions in First Schedule matters, appeals in Second Schedule, claims in Third Schedule [Section 5, s.5, סעיף 5]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בתי_משפט_לעניינים_מינהליים",
+      "raw_snippet": "בית משפט לענינים מינהליים ידון באלה – (1) עתירה נגד החלטה של רשות או של גוף המנוי בתוספת הראשונה בענין המנוי בתוספת הראשונה",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md",
+        "scripts/legal_term_lookup.py"
+      ]
+    },
+    {
+      "claim_id": "bank-mizrahi-citation",
+      "claim": "CA 6821/93 United Mizrahi Bank v. Migdal Cooperative Village",
+      "source_url": "https://he.wikipedia.org/wiki/פסק_דין_בנק_המזרחי",
+      "raw_snippet": "ע\"א 6821/93 בנק המזרחי המאוחד בע\"מ נ' מגדל כפר שיתופי",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bank-mizrahi-date",
+      "claim": "Bank Mizrahi decided 9.11.1995",
+      "source_url": "https://he.wikipedia.org/wiki/פסק_דין_בנק_המזרחי",
+      "raw_snippet": "תאריך החלטה 9.11.1995",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "protection-of-wages-law-1958",
+      "claim": "Protection of Wages Law 1958",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "חוק הגנת השכר, תשי״ח–1958",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "protection-of-wages-s17",
+      "claim": "s.17 late-wage compensation (pitzui halanat sachar) [Section 17, s.17, סעיף 17]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "17. פיצוי הלנת שכר [תיקון: תשמ״ה] (א) לשכר מולן יווסף הסכום הגבוה מבין אלה (להלן – פיצוי הלנת שכר)",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "pension-extension-order-2008",
+      "claim": "Comprehensive pension extension order published 01.01.2008, phased to 2013, with severance contributions",
+      "source_url": "https://www.kolzchut.org.il/he/צו_הרחבה_לביטוח_פנסיוני_מקיף_במשק",
+      "raw_snippet": "צו ההרחבה לביטוח פנסיוני מקיף במשק שפורסם ב-01.01.2008 קבע לראשונה זכאות של כלל העובדים השכירים במשק לפנסיה",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real page text, not a bot-challenge page)",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "pension-extension-order-2013",
+      "claim": "Phased contributions over 5 years until 2013",
+      "source_url": "https://www.kolzchut.org.il/he/צו_הרחבה_לביטוח_פנסיוני_מקיף_במשק",
+      "raw_snippet": "בצו מ-2008 נקבעו הפרשות הדרגתיות לגמל ולפיצויים החל מ-2.5% ועד 15% במשך 5 שנים (עד 2013)",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ],
+      "verified_via": "browser (Playwright render of the live page, real page text, not a bot-challenge page)",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "land-law-chapter6-condo",
+      "claim": "Land Law Chapter 6 condominiums (TOC) [Chapter 6]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "פרק ו׳: בתים משותפים סימן א׳: הוראות כלליות סימן ב׳: דירות ורכוש משותף סימן ג׳: ניהול הבית המשותף סימן ג׳1: שינויים ברכוש המשותף ובזכויות הבניה סימן ד׳: יישוב סכסוכים בין בעלי הדירות",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "land-law-s72-superintendent",
+      "claim": "Land Law s.72: disputes between owners in a condominium decided by the Superintendent [Section 72, s.72, סעיף 72]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "72. סמכות להכריע בסכסוכים",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "land-law-s72-text",
+      "claim": "s.72(a) dispute between apartment owners in a condominium about rights or duties under the by-laws",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "סכסוך בין בעלי דירות בבית משותף בדבר זכויותיהם או חובותיהם לפי התקנון",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "limitation-s6",
+      "claim": "Limitation Law s.6: period starts when the cause of action arose [Section 6, s.6, סעיף 6]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההתיישנות",
+      "raw_snippet": "תקופת ההתיישנות מתחילה ביום שבו נולדה עילת התובענה",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "limitation-s8",
+      "claim": "Limitation Law s.8: late discovery [Section 8, s.8, סעיף 8]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההתיישנות",
+      "raw_snippet": "נעלמו מן התובע העובדות המהוות את עילת התובענה, מסיבות שלא היו תלויות בו ושאף בזהירות סבירה לא יכול היה למנוע אותן, תתחיל תקופת ההתיישנות ביום שבו נודעו לתובע עובדות אלה",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "limitation-s15a-b-land",
+      "claim": "s.15A(b): land claims only if the period would have ended between Amendment 8 commencement (25.1.2024) and 6 April 2024 [s.15A(b)]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההתיישנות",
+      "raw_snippet": "(ב) בחישוב תקופת ההתיישנות של תביעה במקרקעין, שתקופת ההתיישנות שלה הייתה מסתיימת, על פי הדין החל ערב תיקון מס׳ 8 , בתקופה שמיום תחילתו של תיקון מס׳ 8 ועד יום כ״ז באדר ב׳ התשפ״ד (6 באפריל 2024)",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "limitation-s15a-c",
+      "claim": "s.15A(c): periods that ended between 7 Oct 2023 and the eve of Amendment 8 are treated as not yet ended [24.1.2024]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההתיישנות",
+      "raw_snippet": "הסתיימה תקופת ההתיישנות של תביעה, בין במקרקעין ובין בשאינו מקרקעין, בתקופה שמיום כ״ב בתשרי התשפ״ד (7 באוקטובר 2023) עד ערב תחילתו של תיקון מס׳ 8 – יראו את תקופת ההתיישנות כאילו טרם הסתיימה",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "sale-apartments-s11c-2011",
+      "claim": "Amendment 5 does not apply to an apartment in a building completed, or whose contract was made, before 6.4.2011 [s.11(c), 06.04.2011]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המכר_(דירות)",
+      "raw_snippet": "לא יחול על דירה בבניין שבנייתו הסתיימה או שחוזה המכר לגביה נכרת לפני תחילתו של תיקון מס׳ 5 (ביום 6.4.2011)",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md",
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "basic-law-knesset-s12",
+      "claim": "Basic Law: The Knesset s.12: first sitting within 14 days of election day [s.12]",
+      "source_url": "https://he.wikisource.org/wiki/חוק-יסוד:_הכנסת",
+      "raw_snippet": "הכנסת תתכנס לישיבתה הראשונה, לאחר פרסום תוצאות הבחירות, בתוך ארבעה עשר ימים מיום הבחירות לכנסת",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "continuity-law-s1",
+      "claim": "Continuity of Bills Law 1993 s.1: a government formed in the incoming Knesset may ask for continuity of a bill passed first reading [ss.1-2, ss.1-3, סעיפים 1-3]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_רציפות_הדיון_בהצעות_חוק",
+      "raw_snippet": "רשאית ממשלה שנתכוננה בכנסת הנכנסת, להודיע במליאת הכנסת על רצונה שיחול עליה דין רציפות",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "continuity-law-title",
+      "claim": "Continuity of Bills Law 1993",
+      "source_url": "https://he.wikisource.org/wiki/חוק_רציפות_הדיון_בהצעות_חוק",
+      "raw_snippet": "חוק רציפות הדיון בהצעות חוק, התשנ״ג–1993",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "torts-s63",
+      "claim": "Torts Ordinance s.63 breach of statutory duty [Saif 63]",
+      "source_url": "https://he.wikisource.org/wiki/פקודת_הנזיקין",
+      "raw_snippet": "63. הפרת חובה חקוקה (א) מפר חובה חקוקה הוא מי שאינו מקיים חובה המוטלת עליו על פי כל חיקוק",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "consumer-s14c",
+      "claim": "Consumer Protection Law s.14C distance selling disclosures [Saif 14C]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_הצרכן",
+      "raw_snippet": "(א) בשיווק מרחוק חייב העוסק לגלות לצרכן פרטים אלה לפחות",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "class-actions-s3a",
+      "claim": "Class Actions Law s.3(a): only claims in the Second Schedule or where a statute allows [Saif 3(a), Second Schedule]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_תובענות_ייצוגיות",
+      "raw_snippet": "לא תוגש תובענה ייצוגית אלא בתביעה כמפורט בתוספת השניה או בענין שנקבע בהוראת חוק מפורשת כי ניתן להגיש בו תובענה ייצוגית",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/legislation-index.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "class-actions-small-business-bill",
+      "claim": "Small-business exemption bill approved for 2nd/3rd reading by the joint committee, 15/10/2026",
+      "source_url": "https://www.bizportal.co.il/takdin/news/article/20044834",
+      "raw_snippet": "הוועדה המשותפת לוועדות החוקה והכלכלה אישרה לקריאה שנייה ושלישית תיקון בחוק תביעות ייצוגיות",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "amendment-13-in-force-14-8-2025",
+      "claim": "Amendment 13 in force 14.8.2025",
+      "source_url": "https://www.shibolet.com/?p=23026",
+      "raw_snippet": "לראשונה מאז כניסתו לתוקף של תיקון 13 לחוק הגנת הפרטיות, התשמ\"א-1981 (\" התיקון \" ו-\" החוק \", בהתאמה) ביום 14.8.2025",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "bar-law-s96-s98",
+      "claim": "Bar Association Law s.96 trespass on the profession, s.98 no fee claim [ss.96-98]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_לשכת_עורכי_הדין",
+      "raw_snippet": "96. הסגת גבול המקצוע [תיקון: תשע״ו] מי שאינו עורך דין ועושה פעולה",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bar-law-s98",
+      "claim": "s.98 denial of fee claims",
+      "source_url": "https://he.wikisource.org/wiki/חוק_לשכת_עורכי_הדין",
+      "raw_snippet": "98. שלילת תביעת שכר [תיקון: תשס״ט־2]",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bar-law-s20-skill",
+      "claim": "Bar Association Law 1961 s.20 reserves the profession's acts when done as a business or for consideration [s.20, סעיף 20]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_לשכת_עורכי_הדין",
+      "raw_snippet": "לא יעשה אותן דרך עיסוק, או בתמורה אף שלא דרך עיסוק, אלא עורך דין",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "apropim-1995",
+      "claim": "Apropim (CA 4628/93) decided 1995",
+      "source_url": "https://he.wikipedia.org/wiki/פסק_דין_אפרופים",
+      "raw_snippet": "ע\"א 4628/93 מדינת ישראל נ' אפרופים שיכון וייזום בע\"מ (1995)",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/legal-databases-guide.md"
+      ]
+    },
+    {
+      "claim_id": "courts-law-s60a2-repair",
+      "claim": "Small claims may also order replacement, repair or cancellation up to the ceiling [s.60(a)(2)]",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בתי_המשפט",
+      "raw_snippet": "(2) למתן צו להחלפת מצרך או לתיקונו או לביטול עסקה",
+      "fetched_at": "2026-11-03T19:00:00Z",
+      "appears_in": [
+        "references/court-procedure-map.md"
+      ]
+    },
+    {
+      "claim_id": "ppa-menora-title",
+      "claim": "PPA notice (primary, gov.il): NIS 256,000 fine on Menora Mivtachim for late reporting of a severe security incident (22/10/26)",
+      "source_url": "https://www.gov.il/he/pages/menora-221026",
+      "raw_snippet": "הרשות להגנת הפרטיות הטילה עיצום כספי בסך 256,000 ש\"ח על חברת מנורה מבטחים ביטוח בע\"מ בגין איחור בדיווח על אירוע אבטחה חמור",
+      "fetched_at": "2026-11-03T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "ppa-menora-immediate-duty",
+      "claim": "PPA: the immediate reporting duty is set in the Privacy Protection (Data Security) Regulations",
+      "source_url": "https://www.gov.il/he/pages/menora-221026",
+      "raw_snippet": "הרשות קבעה כי החברה הפרה את חובת הדיווח המיידי הקבועה בתקנות הגנת הפרטיות (אבטחת מידע)",
+      "fetched_at": "2026-11-03T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "ppa-menora-base-reduction",
+      "claim": "PPA: base NIS 640,000 reduced cumulatively 60% under the Fifth Schedule [60%]",
+      "source_url": "https://www.gov.il/he/pages/menora-221026",
+      "raw_snippet": "הועמד סכום העיצום הכספי הבסיסי על 640,000 ש\"ח. לאחר בחינת נסיבות ההפחתה הקבועות בתוספת החמישית לחוק, הפחיתה הרשות את סכום העיצום בשיעור מצטבר של 60%",
+      "fetched_at": "2026-11-03T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "ppa-site",
+      "claim": "PPA site https://www.gov.il/he/departments/the_privacy_protection_authority lists its enforcement notices",
+      "source_url": "https://www.gov.il/he/departments/the_privacy_protection_authority",
+      "raw_snippet": "הרשות להגנת הפרטיות הטילה עיצום כספי בסך 256,000",
+      "fetched_at": "2026-11-03T20:00:00Z",
+      "appears_in": [
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "elections-2026-10-27-scheduled",
+      "claim": "Ministry of Education civics bulletin (gov.il): elections for the 26th Knesset set for 27 October 2026 [2026-10-27]",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/ezrachut/zarkortwentysix.pdf",
+      "raw_snippet": "הבחירות לכנסת ה-26 יתקיימו ב-27 באוקטובר 2026",
+      "fetched_at": "2026-11-03T20:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ],
+      "verified_via": "pdf (text layer read with pdftotext; RTL extraction reorders the digits, so the default matcher cannot align it)",
+      "verified_at": "2026-11-03"
+    },
+    {
+      "claim_id": "elections-2026-10-27-held",
+      "claim": "IDI: voting for the 26th Knesset took place on October 27, 2026",
+      "source_url": "https://en.idi.org.il/articles/66833",
+      "raw_snippet": "On October 27, Israeli citizens voted to elect the 26th Knesset",
+      "fetched_at": "2026-11-03T20:00:00Z",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "continuity-law-s3-mk-consent",
+      "claim": "Continuity Law s.3: an MK's bill continues only if that MK sits in the incoming Knesset and consents",
+      "source_url": "https://he.wikisource.org/wiki/חוק_רציפות_הדיון_בהצעות_חוק",
+      "raw_snippet": "לא תימסר אלא אם כן אותו חבר הכנסת מכהן בכנסת הנכנסת ונתן את הסכמתו לכך",
+      "fetched_at": "2026-11-03T20:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "reasonableness-2024-12-of-15",
+      "claim": "Lawfare: 8-7 on the petition; a broader majority of 12 out of 15 accepted HCJ authority to review constitutional amendments",
+      "source_url": "https://www.lawfaremedia.org/article/the-hcj-strikes-back-israel-s-supreme-court-pulls-the-plug-on-judicial-reform",
+      "raw_snippet": "Eight justices accepted the petition, and seven rejected it. Still, a broader majority of 12 out of 15 accepted that the HCJ has, in principle, the legal authority to review constitutional amendments",
+      "fetched_at": "2026-11-03T20:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
     }
   ]
 }
