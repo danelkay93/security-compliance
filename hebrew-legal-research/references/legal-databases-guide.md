@@ -18,7 +18,7 @@ Israeli legal research, including both paid and free options.
   - Cross-references between legislation and case law
 - **Access:** Subscription required (monthly/annual)
 - **URL:** https://www.nevo.co.il
-- **API:** No public API available
+- **API integration:** This skill has no verified API integration for this provider. Use authorized portal access; check the provider's current documentation and access terms before programmatic access.
 - **Tips for researchers:**
   - Use the "consolidated version" (nusach meshulav) for current law text
   - Check amendment history (tikunim) for recent changes
@@ -32,7 +32,7 @@ Israeli legal research, including both paid and free options.
   - Legal forms and templates
 - **Access:** Subscription required
 - **URL:** https://www.takdin.co.il
-- **API:** No public API available
+- **API integration:** This skill has no verified API integration for this provider. Use authorized portal access; check the provider's current documentation and access terms before programmatic access.
 - **Tips for researchers:**
   - Good alternative when Nevo is unavailable
   - Form templates useful for document preparation
@@ -75,7 +75,7 @@ Israeli legal research, including both paid and free options.
 - **Limitations:**
   - Not all lower-court rulings are published; historical coverage before 1997 is incomplete
   - Search is limited compared to commercial databases
-  - The sites run a WAF that blocks many bots and some foreign IPs; access from a real browser is most reliable
+  - The sites run a WAF that blocks many bots and some foreign IPs. Distinguish a rendering or connection failure from an explicit access denial. For a public page the current tool cannot render, use an authorized supported browser or another full official publication. Stop a route that explicitly denies access or shows a browser security warning; do not change headers, proxies or security settings to evade it. Record the exact source gap, and ask the user for the text only if no authorized retrieval route is available.
 - **URLs:**
   - Supreme Court rulings search: https://supremedecisions.court.gov.il/
   - Supreme Court site: https://supreme.court.gov.il/ (opens the Supreme Court home page with a recent rulings list)
@@ -83,7 +83,7 @@ Israeli legal research, including both paid and free options.
   - Court fees reference: https://www.gov.il/he/pages/fees_16
 - **Tips:**
   - Supreme Court (Bagatz and civil/criminal appeals) best covered
-  - Supreme Court dockets are **number/year**: ע"א 4628/93 is case 4628 filed in 1993 (decided in 1995). Bagatz petitions use the same pattern (בג"ץ 5100/94)
+  - Older Supreme Court slash dockets are **number/year**: ע"א 4628/93 is case 4628 filed in 1993 (decided in 1995), and older Bagatz petitions follow the same pattern (בג"ץ 5100/94). Newer dockets use a number-MM-YY shape. Copy the docket exactly as printed in the judgment or database hit; do not convert between shapes or rebuild one from memory
   - Before treating a holding as controlling, check for a later further hearing (דיון נוסף) or a later ruling that departed from it
 
 ### Kol Zchut (kolzchut.org.il)
@@ -136,8 +136,8 @@ Confirm no recent amendments or pending legislation changes
 ## Citation Format
 Israeli legal citations typically follow this format:
 - **Legislation:** Chok [Name], [Hebrew year]-[Gregorian year], Sefer HaChukim [number], amud [page]
-- **Court ruling:** [Court/proceeding abbreviation] [docket number/year] [Party 1] נ' [Party 2], and where the ruling was published in the official reporter, פ"ד [volume]([part]) [page]
+- **Court ruling:** [Court/proceeding abbreviation] [docket number exactly as printed: number/year, or number-MM-YY for newer dockets] [Party 1] נ' [Party 2], and where the ruling was published in the official reporter, פ"ד [volume]([part]) [page]
 - **Example:** ע"א 4628/93 מדינת ישראל נ' אפרופים שיכון וייזום (1991) בע"מ, פ"ד מט(2) 265 (1995)
 - **Example:** בג"ץ 5100/94 הוועד הציבורי נגד עינויים בישראל נ' ממשלת ישראל (the respondents are the Government and the General Security Service, not "the State of Israel")
-- **Unreported ruling** (most recent rulings have no פ"ד reference): proceeding abbreviation, docket number/year, party names, then the database and the decision date as shown in the hit, for example (נבו <date>). State the panel, and whether the passage you rely on is the majority holding or a minority or concurring opinion, because Basic Law: The Judiciary s.20(b) binds only the holding.
+- **Unreported ruling** (most recent rulings have no פ"ד reference): proceeding abbreviation, docket number as printed, party names, then the database and the decision date as shown in the hit, for example (נבו <date>). State the panel, and whether the passage you rely on is the majority holding or a minority or concurring opinion, because Basic Law: The Judiciary s.20(b) binds only the holding.
 - Always copy the exact docket number, party names and reporter reference from a verified source; never reconstruct them from memory. If no database is reachable, say the citation could not be confirmed.

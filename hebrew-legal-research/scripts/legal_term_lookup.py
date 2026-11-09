@@ -13,6 +13,8 @@ Usage:
     python legal_term_lookup.py --area employment
 """
 
+from __future__ import annotations
+
 import argparse
 import sys
 
@@ -377,9 +379,10 @@ def lookup_term(term: str) -> dict | None:
     term_lower = _norm(term)
     if not term_lower:
         return None
-    # Exact match on the transliterated key
-    if term_lower in LEGAL_TERMS:
-        return LEGAL_TERMS[term_lower]
+    # Exact match on the transliterated key (normalized, so "tzav meni'a" matches)
+    for k, v in LEGAL_TERMS.items():
+        if _norm(k) == term_lower:
+            return v
     # Exact match on the Hebrew term (before any parenthetical expansion)
     for v in LEGAL_TERMS.values():
         if _norm(v["hebrew"].split("(")[0]) == term_lower:
@@ -387,7 +390,7 @@ def lookup_term(term: str) -> dict | None:
     # Partial match on key, English, or Hebrew
     matches = {
         k: v for k, v in LEGAL_TERMS.items()
-        if term_lower in k or term_lower in v["english"].lower() or term_lower in _norm(v["hebrew"])
+        if term_lower in _norm(k) or term_lower in v["english"].lower() or term_lower in _norm(v["hebrew"])
     }
     if len(matches) == 1:
         return next(iter(matches.values()))
